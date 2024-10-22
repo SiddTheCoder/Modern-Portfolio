@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S I D D T H E C O D E R</title>
+
+  <!-- FavIcon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon/favicon-16x16.png" />
+  <link rel="icon" href="asset/favicon/favicon.ico" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- font Awesome -->
+
+  <!-- font Silkscreen -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- font [ Rubik Bubbles ] -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet" />
+
+  <!-- FONT CAVIET -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
+
+  <!-- FOTN EXO -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+
+     /* Custom styles for card and gloss effect */
+     #card {
+      transition: transform 0.2s ease-out;
+    }
+    #gloss {
+      position: absolute;
+      transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+      pointer-events: none;
+    }
+
+    }
+  </style>
+</head>
+
+<body class="bg-slate-900">
+  <!-- Nav Bar Starts -->
+  <nav class="h-12 min-w-full bg-purple-700 flex justify-between items-center sm:px-10 px-5">
+    <ul class="flex items-center">
+      <img class="w-10 h-10" src="asset/siddycoddy-no-bg.png" alt="Logo" />
+      <li class="hidden sm:block ml-1 text-lg text-orange-100 font-silkscreen">
+        S I D D T H E C O D E R
+      </li>
+    </ul>
+
+    <ul class="sm:flex gap-8 hidden justify-center items-center">
+      <li class="list-none text-sm font-[450] font-happyMonkey text-white cursor-pointer hover:text-slate-400">
+        <a href="#secction-project">Projects</a>
+      </li>
+      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+        <a href="https://www.facebook.com/siddthecoder"><i
+            class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a>
+        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a> -->
+      </li>
+      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+        <a href="https://www.instagram.com/siddhant_.ydv"><i
+            class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a>
+        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a> -->
+      </li>
+      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+        <a href="https://github.com/SiddTheCoder"><i
+            class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a>
+        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a> -->
+      </li>
+    </ul>
+
+    <ul class="flex">
+      <div class="sm:hidden block">
+        <i class="fa-duotone fa-solid fa-bars"></i>
+      </div>
+      <div class="hidden sm:block">
+        <div
+          class="bg-purple-500 rounded font-happyMonkey hover:transition-all cursor-pointer text-white border px-4 text-sm pb-1 py-[5px] hover:bg-purple-700">
+          Join
+        </div>
+      </div>
+    </ul>
+  </nav>
+  <!-- Nav Bar Ends -->
+
+  <!-- Lander Begins here -->
+  <main id="main">
+    <div class="h-[94vh] bg-slate-950 text-white flex justify-center">
+      <div class="hidden md:block w-[15%] h-full">
+        <ul class="flex flex-col items-center">
+          <li
+            class="h-16 w-16 rounded rotate-12 bg-purple-700 mt-10 left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-10" src="asset/one.png" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-10" src="asset/kanyam1.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-1" src="asset/night2.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-5" src="asset/kanyam2.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-1" src="asset/isckon.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-0" src="asset/night1.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+      <div
+        class="w-full sm:w-[80%] h-full p-4 flex flex-col sm:flex-row items-start sm:justify-items-center sm:justify-around py-4 sm:py-10">
+        <div class="sm:pl-9 sm:w-[80%] sm:min-w-[50%] w-full h-full sm:mt-12">
+          <div class="h-8 relative">
+            A Great
+            <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Tech Company</span>
+            in this Era
+          </div>
+          <div class="font-['Rubik Bubbles'] text-4xl sm:text-5xl text-purple-400">
+            S I D D Y C O D D Y
+          </div>
+          <div class="mt-4 h-8 relative">
+            The Great Developer
+            <span class="bg-purple-300 text-purple-950 px-1 pl-1 py-0.5 rounded mr-1">Siddhant Yadav </span>Known By
+          </div>
+          <div class="font-['Rubik Bubbles'] text-3xl sm:text-[30px] text-purple-300">
+            S I D D T H E C O D E R
+          </div>
+
+          <div class="mt-10 w-full">
+            <h2 class="define-ownself text-lg font-happyMonkey">
+              <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Wondering</span>
+              Who am <span class="text-4xl">I</span> ? <br />Here You Got
+              <br />
+              Bloody
+              <span class="typed-text font-silkscreen text-purple-400 text-3xl"></span><span
+                class="cursor">&nbsp;</span>
+            </h2>
+            <script src="script/autoText.js"></script>
+          </div>
+
+          <div class="grid place-items-center">
+            <img
+              class="sm:hidden block transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-48"
+              src="asset/mmbg (1).png" alt="Hero" />
+          </div>
+
+          <div class="mt-16">
+            <ul class="flex gap-y-20 sm:flex-row justify-start gap-10">
+              <li
+                class="border w-56 rounded flex justify-center items-center p-2 bg-purple-700 cursor-pointer border-purple-950 hover:bg-purple-950 transition-all">
+                Know My Chromosome
+              </li>
+              <li
+                class="border w-56 rounded flex justify-center items-center p-2 bg-purple-700 cursor-pointer border-purple-950 hover:bg-purple-950 transition-all">
+                Join My Chromosome
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="h-full grid place-items-center">
+          <img
+            class="hidden sm:block w-[100%] relative bottom-16 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+            src="asset/mmbg (1).png" alt="Hero" />
+        </div>
+      </div>
+      <div class="hidden md:block w-[15%] h-full">
+        <ul class="flex flex-col items-center">
+          <li
+            class="h-16 w-16 rounded rotate-12 bg-purple-700 mt-10 left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-0" src="asset/sidelook.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-2" src="asset/farewll.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-0" src="asset/funky.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-0" src="asset/ylSwag.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-0" src="asset/coat.jpg" alt="" />
+          </li>
+          <li
+            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+            <img class="w-22 relative bottom-0" src="asset/baby.jpg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!-- Lander Terminate here -->
+
+  <!-- Project Section Starts -->
+  <div id="secction-project" class="h-[100vh] w-full text-white flex flex-col items-center p-5">
+    <div>
+      <!-- 1st row -->
+      <p class="text-xl">
+        Recents
+        <span class="bg-purple-800 text-white rounded px-3 text-2xl pb-1 font-silkscreen">Project</span>
+        Showcase
+      </p>
+      <div class="w-auto mt-2 border-b-purple-600 border-b-4 shadow-purple-400 shadow-xl"></div>
+    </div>
+
+    <div class="w-full p-4 flex flex-wrap px-1 mt-4 pl-10 justify-center md:justify-center gap-10 sm:gap-22">
+
+      <!-- Card Structure with Tailwind CSS and JavaScript -->
+
+      <!-- Card Starts Here -->
+      <div id="card"
+        class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+        <div id="gloss" class="gloss rounded-full"></div>
+        <!-- Gloss effect element -->
+        <!-- Card image section -->
+        <div class="w-full h-78 bg-purple-400 overflow-hidden">
+          <img class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+            src="asset/js-number-gusser.png" alt="JavaScript Image" />
+        </div>
+        <!-- Card content -->
+        <div class="p-1 font-happyMonkey text-2xl">
+          <span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">DOM</span>
+          Number Guesser
+        </div>
+        <!-- Card description -->
+        <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+          voluptate aliquam doloremque veniam minus necessitatibus itaque
+          fugiat culpa adipisci quae?
+        </p>
+        <!-- Card button -->
+        <div class="p-1">
+          <a href="https://siddthecoder.github.io/NumberGuesser-js/"><span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+        </div>
+      </div>
+      <!-- Card Ends Here -->
+
+      <!-- Card Starts Here -->
+      <div id="card"
+            class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+            <div id="gloss" class="gloss rounded-full"></div>
+            <!-- Gloss effect element -->
+            <!-- Card image section -->
+            <div class="w-full h-78 bg-purple-400 overflow-hidden">
+              <img class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+                src="asset/siddycoddy.png" alt="JavaScript Image" />
+            </div>
+            <!-- Card content -->
+            <div class="p-1 font-happyMonkey text-2xl">
+              <span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">Website</span>
+              SiddyCoddy
+            </div>
+            <!-- Card description -->
+            <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              voluptate aliquam doloremque Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero, tempore!
+            </p>
+            <!-- Card button -->
+            <div class="p-1">
+              <a href="https://siddthecoder.github.io/Real-Site/"><span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+            </div>
+      </div>
+      <!-- Card Ends Here -->
+
+      <!-- Card Starts Here -->
+      <div id="card"
+            class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+            <div id="gloss" class="gloss rounded-full"></div>
+            <!-- Gloss effect element -->
+            <!-- Card image section -->
+            <div class="w-full h-78 bg-purple-400 overflow-hidden">
+              <img class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+                src="asset/js-wall.png" alt="JavaScript Image" />
+            </div>
+            <!-- Card content -->
+            <div class="p-1 font-happyMonkey text-2xl">
+              <span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">DOM</span>
+              Number Guesser
+            </div>
+            <!-- Card description -->
+            <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              voluptate aliquam doloremque veniam minus necessitatibus itaque
+              fugiat culpa adipisci quae?
+            </p>
+            <!-- Card button -->
+            <div class="p-1">
+              <a href="https://siddthecoder.github.io/NumberGuesser-js/"><span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+            </div>
+            
+      </div>
+      <!-- Card Ends Here -->
+
+      <!-- Card Starts Here -->
+      <div id="card"
+            class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+            <div id="gloss" class="gloss rounded-full"></div>
+            <!-- Gloss effect element -->
+            <!-- Card image section -->
+            <div class="w-full h-78 bg-purple-400 overflow-hidden">
+              <img class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+                src="asset/js-wall.png" alt="JavaScript Image" />
+            </div>
+            <!-- Card content -->
+            <div class="p-1 font-happyMonkey text-2xl">
+              <span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">DOM</span>
+              Number Guesser
+            </div>
+            <!-- Card description -->
+            <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              voluptate aliquam doloremque veniam minus necessitatibus itaque
+              fugiat culpa adipisci quae?
+            </p>
+            <!-- Card button -->
+            <div class="p-1">
+              <a href="https://siddthecoder.github.io/NumberGuesser-js/"><span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+            </div>
+            
+      </div>
+      <!-- Card Ends Here -->
+
+     <!-- Card Starts Here -->
+      <div id="card"
+            class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+            <div id="gloss" class="gloss rounded-full"></div>
+            <!-- Gloss effect element -->
+            <!-- Card image section -->
+            <div class="w-full h-78 bg-purple-400 overflow-hidden">
+              <img class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+                src="asset/js-wall.png" alt="JavaScript Image" />
+            </div>
+            <!-- Card content -->
+            <div class="p-1 font-happyMonkey text-2xl">
+              <span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">DOM</span>
+              Number Guesser
+            </div>
+            <!-- Card description -->
+            <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
+              voluptate aliquam doloremque veniam minus necessitatibus itaque
+              fugiat culpa adipisci quae?
+            </p>
+            <!-- Card button -->
+            <div class="p-1">
+              <a href="https://siddthecoder.github.io/NumberGuesser-js/"><span class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+            </div>
+            
+      </div>
+      <!-- Card Ends Here -->      
+
+      <!-- Card Starts Here -->
+      <div id="card"
+            class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg items-center justify-center cursor-no-drop">
+            <div id="gloss" class="gloss rounded-full"></div>
+            <!-- Gloss effect element -->
+            <!-- Card image section -->
+            <h1>Coming Soon</h1>
+          </div>
+      <script type="module" src="script/cardTilter.js"></script>
+      <!-- Card Ends Here -->
+
+    </div>
+    
+  </div>
+  <!-- Project Section Ends -->
+
+
+  <!-- Footer Itmes -->
+  <!-- <a href="#main" class="bg-purple-700 p-5 rounded-full">
+      <i class="fa-duotone fa-solid fa-up-long text-white text-2xl"></i>
+    </a> -->
+</body>
+
+</html>

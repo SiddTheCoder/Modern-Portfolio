@@ -76,7 +76,7 @@
 
     <ul class="sm:flex gap-8 hidden justify-center items-center">
       <li class="list-none text-sm font-[450] font-happyMonkey text-white cursor-pointer hover:text-slate-400">
-        <a href="#secction-project">Projects</a>
+        <a class="px-4 py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100" href="#secction-project">Projects</a>
       </li>
       <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
         <a href="https://www.facebook.com/siddthecoder"><i
@@ -100,10 +100,22 @@
         <i class="fa-duotone fa-solid fa-bars"></i>
       </div>
       <div class="hidden sm:block">
-        <div
+        <div id="showUpcomingMessage"
           class="bg-purple-500 rounded font-happyMonkey hover:transition-all cursor-pointer text-white border px-4 text-sm pb-1 py-[5px] hover:bg-purple-700">
           Join
         </div>
+        <!-- The Message To show -->
+        <div>
+          <div id="upcomingMessageInfo" class=" z-[1000] shadow-[-4px_4px_42px_2px_#a700bd] hidden opacity-0 fixed left-2 bottom-2 bg-purple-900 h-10 w-80 rounded justify-center items-center gap-2 transition-opacity duration-500 ease-in-out">
+              <div class="text-purple-500">
+                  <img class="w-8" src="asset/siddycoddy-no-bg.png" alt="">
+              </div>
+              <div class="text-purple-300">Available After Upcoming Update</div>
+          </div>
+      </div>
+        <!-- The Message To show -->
+         <script src="script/upcomingInformer.js"></script>
+        <!-- The Script to add -->
       </div>
     </ul>
   </nav>
@@ -155,12 +167,12 @@
             The Great Developer
             <span class="bg-purple-300 text-purple-950 px-1 pl-1 py-0.5 rounded mr-1">Siddhant Yadav </span>Known By
           </div>
-          <div class="font-['Rubik Bubbles'] text-3xl sm:text-[30px] text-purple-300">
+          <div class="font-['Rubik Bubbles'] text-3xl sm:text-[30px] text-purple-300 mt-3 sm:mt-0">
             S I D D T H E C O D E R
           </div>
 
-          <div class="mt-10 w-full">
-            <h2 class="define-ownself text-lg font-happyMonkey">
+          <div class="mt sm:mt-16 w-full">
+            <h2 class="define-ownself text-lg font-exo sm:font-happyMonkey">
               <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Wondering</span>
               Who am <span class="text-4xl">I</span> ? <br />Here You Got
               <br />

@@ -5,44 +5,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-      <!-- font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-  integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-  crossorigin="anonymous" referrerpolicy="no-referrer" />
-<!-- font Awesome -->
 </head>
-<body class="bg-slate-800 h-screen grid place-items-center">
-    <div id="showUpcomingMessage" class="later w-24 bg-orange-400 rounded flex justify-center cursor-pointer">See Update</div>
-    <div>
-        <div id="upcomingMessageInfo" class="hidden opacity-0 fixed right-2 bottom-2 bg-purple-900 h-10 w-80 rounded justify-center items-center gap-2 transition-opacity duration-500 ease-in-out">
-            <div class="text-purple-500">
-                <img class="w-8" src="asset/siddycoddy-no-bg.png" alt="">
-            </div>
-            <div class="text-purple-300">Available After Upcoming Update</div>
+<body class="h-screen grid place-items-center">
+<!-- 
+    <div id="shower">
+        <div id="initial" class="h-32 w-32 bg-red-700 rounded cursor-pointer">
+            <img src="asset/coat.jpg" alt="">
+        </div>
+        <div id="final" class="h-32 w-32 bg-purple-700 rounded cursor-pointer hidden">
+            <img src="asset/funky.jpg" alt="">
         </div>
     </div>
     
     <script>
-        document.getElementById('showUpcomingMessage').addEventListener('click', function() {
-            const card = document.getElementById('upcomingMessageInfo');
-            
-            // Show the card with fade-in
-            card.classList.add('flex')
-            card.classList.remove('hidden');
-            setTimeout(() => {
-                card.classList.add('opacity-100');
-                card.classList.remove('opacity-0');
-            }, 100); // Small delay for smooth transition
-            
-            // Hide the card after 2 seconds with fade-out
-            setTimeout(function() {
-                card.classList.add('opacity-0');
-                card.classList.remove('opacity-100');
-                setTimeout(() => {
-                    card.classList.add('hidden'); // Add hidden after fade-out
-                }, 1000); // Duration of the fade-out transition
-            }, 3500);
-        });
+    document.getElementById('shower').addEventListener('click', function(e) {
+        const first = document.getElementById('initial');
+        const second = document.getElementById('final');
+    
+        // Find the closest parent div with the IDs 'initial' or 'final'
+        const targetDiv = e.target.closest('#initial, #final');
+    
+        if (targetDiv && targetDiv.id === 'initial') {
+            // Hide the first and show the second
+            first.classList.add('hidden');
+            second.classList.remove('hidden');
+        } else if (targetDiv && targetDiv.id === 'final') {
+            // Hide the second and show the first
+            second.classList.add('hidden');
+            first.classList.remove('hidden');
+        }
+    }, false);
+    </script> -->
+    
+
+    <ul id="task-list">
+        <li class="task">
+            <span>Buy groceries</span>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </li>
+        <li class="task">
+            <span>Walk the dog</span>
+            <button class="edit-btn">Edit</button>
+            <button class="delete-btn">Delete</button>
+        </li>
+    </ul>
+    
+    <script>
+    document.getElementById('task-list').addEventListener('click', function(e) {
+        const taskItem = e.target.closest('.task');
+        
+        if (!taskItem) return; // Exit if no task was clicked
+    
+        if (e.target.classList.contains('edit-btn')) {
+            const taskText = taskItem.querySelector('span').textContent;
+            const newTaskText = prompt('Edit task:', taskText);
+            if (newTaskText) {
+                taskItem.querySelector('span').textContent = newTaskText;
+            }
+        } else if (e.target.classList.contains('delete-btn')) {
+            taskItem.remove();
+        }
+    });
     </script>
     
 </body>

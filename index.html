@@ -59,14 +59,13 @@
       transition: opacity 0.2s ease-out, transform 0.2s ease-out;
       pointer-events: none;
     }
-
     }
   </style>
 </head>
 
 <body class="bg-slate-900">
   <!-- Nav Bar Starts -->
-  <nav class="h-12 min-w-full bg-purple-700 flex justify-between items-center sm:px-10 px-5">
+  <nav id="navbar" class="h-14 min-w-full bg-purple-700 flex justify-between items-center sm:px-10 px-5 fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out">
     <ul class="flex items-center">
       <img class="w-10 h-10" src="asset/siddycoddy-no-bg.png" alt="Logo" />
       <a href="https://www.siddhantyadav.com.np"><li class="hidden sm:block ml-1 text-lg text-orange-100 font-silkscreen">
@@ -119,10 +118,33 @@
       </div>
     </ul>
   </nav>
+  <!-- Script for navbar for appearing in anti-scroll -->
+  <script>
+     let lastScroll = 0;
+     const navbar = document.getElementById("navbar");
+     
+     window.addEventListener("scroll", () => {
+       const currentScroll = window.pageYOffset;
+       
+       if (currentScroll <= 0) {
+         navbar.classList.remove("-translate-y-full");
+       }
+     
+       if (currentScroll > lastScroll) {
+         // Scrolling down, hide navbar
+         navbar.classList.add("-translate-y-full");
+       } else {
+         // Scrolling up, show navbar
+         navbar.classList.remove("-translate-y-full");
+       }
+       
+       lastScroll = currentScroll;
+     });
+  </script>
   <!-- Nav Bar Ends -->
 
   <!-- Lander Begins here -->
-  <main id="main">
+  <main id="main" class="mt-12">
     <div class="h-[94vh] bg-slate-950 text-white flex justify-center">
       <div class="hidden md:block w-[15%] h-full">
         <ul class="flex flex-col items-center">
@@ -242,7 +264,7 @@
   <!-- Lander Terminate here -->
 
   <!-- Project Section Starts -->
-  <div id="secction-project" class="h-[100vh] w-full text-white flex flex-col items-center p-5">
+  <div id="secction-project" class="h-auto w-full text-white flex flex-col items-center p-5">
 
     <div>
       <!-- 1st row -->
@@ -417,9 +439,105 @@
 
 
   <!-- Footer Itmes -->
-  <!-- <a href="#main" class="bg-purple-700 p-5 rounded-full">
+  <!-- <a href="#main" class="bg-purple-700 p-5 rounded-full fixed bottom-0">
       <i class="fa-duotone fa-solid fa-up-long text-white text-2xl"></i>
     </a> -->
+
+    <!-- Footer Starts Here -->
+     <footer class="bg-purple-700 h-auto w-full flex flex-col p-1">
+     <div class="h-[85vh] w-full sm:mt-12 mt-8">
+      <div class="text-white w-full text-left sm:text-center text-2xl pl-2">
+        <p>The <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded text-3xl font-silkscreen">Wanted</span> Developer</p>
+      </div>  
+     <div class="w-full h-[80vh] flex flex-col sm:flex-row px-5 sm:justify-center items-center">
+            <!-- CSS GRID IMAGE GALLARY -->
+            <div class="w-full mt-3">
+              <p class="text-purple-100 text-lg">Gallery</p>
+               <div class="w-full grid grid-cols-5 sm:grid-cols-5 gap-4">
+                   <div class="grid gap-4">
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-1.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-2.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="grid gap-4">
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-3.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-4.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-5.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="grid gap-4">
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-6.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-7.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-8.jpg" alt="">
+                       </div>
+                   </div>
+                   <div class="grid gap-4">
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-9.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-10.jpg" alt="">
+                       </div>
+                       <div>
+                           <img class="h-auto max-w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/docs/gallery/masonry/image-11.jpg" alt="">
+                       </div>
+                   </div>
+               </div>
+              </div>    
+            <!-- CSS GRID IMAGE GALLARY -->
+          
+             <!-- LInks -->
+            <div class="w-full mt-12 flex sm:items-center flex-col-reverse sm:flex-row justify-center gap-20">
+              <ul class="text-white">
+                 <p class="cursor-pointer py-2 w-52 font-bold hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100">Chromosome Showcase</p>
+                <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">FAQs</li>
+                <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Gmail</li>
+                <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Contact</li>
+                <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Blogs</li>
+                <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Recents Project</li>
+                <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Upcoming Chromosome</li>
+               </ul>
+               <div class="hidden sm:lock">
+                <img src="asset/video/coding.gif" alt="">
+               </div>
+            </div>
+             <!-- LInks -->
+     </div>
+     </div>
+     <!-- Copright section -->
+      <hr>
+     <div class="mt-1 mb-4 h-auto w-full flex flex-col justify-center sm:flex-row text-white items-center sm:justify-center sm:gap-11">
+        <p class="text-sm font-happyMonkey">
+            &copy; <span id="currentYear"></span> Siddhant Yadav. All rights reserved.
+        </p>
+        <p class="text-sm">Made with ❤️</p>
+        <p class="text-sm">
+            Developed by <a href="https://www.siddhantyadav.com.np" class="text-orange-100 hover:underline text-lg font-silkscreen">SiddTheCoder</a>
+        </p>
+    <script>
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+     </div>
+     <!-- Copright section -->
+
+    </footer>
+    <!-- Footer Ends Here -->
 </body>
 
 </html>

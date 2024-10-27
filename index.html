@@ -95,7 +95,7 @@
     </ul>
 
     <ul class="flex">
-      <div id="navWrapper" class="sm:hidden block text-purple-100 text-2xl">
+      <div id="navWrapper" class="sm:hidden block text-purple-100 text-2xl cursor-pointer">
         <i class="fa-duotone fa-solid fa-bars"></i>
       </div>
       <div class="hidden sm:block">
@@ -148,9 +148,11 @@
   <!-- Script for navWrapper -->
   <script>
     document.querySelector('#navWrapper').addEventListener('click', ()=>{
+      document.getElementById('wrap').classList.remove('translate-x-96')
       document.getElementById('wrap').classList.add('translate-x-0')
     })
     document.querySelector('#wrapCloser').addEventListener('click', ()=>{
+      document.getElementById('wrap').classList.add('translate-x-96')
       document.getElementById('wrap').classList.remove('translate-x-0')
     })
   </script>

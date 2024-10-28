@@ -10,8 +10,9 @@ module.exports = {
         exo: ['Exo', 'sans-serif'], // Add the new font family
       },
       backgroundImage: {
-        'hero-pattern': "url('./asset/mmbg (1).png')",
-        'footer-texture': "url('/img/footer-texture.png')",
+        'nightlook': "url('./asset/nightsode2.jpg')",
+        'farewellImg': "url('./asset/farewll.jpg')",
+        'selfie': "url('./asset/selfe1.jpg')",
       },
     },
   },

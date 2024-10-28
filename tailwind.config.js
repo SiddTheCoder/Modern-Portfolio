@@ -13,6 +13,8 @@ module.exports = {
         'nightlook': "url('./asset/nightsode2.jpg')",
         'farewellImg': "url('./asset/farewll.jpg')",
         'selfie': "url('./asset/selfe1.jpg')",
+        'nightfade': "url('./asset/nightffade.jpg')",
+        'nightfade': "url('./asset/coat.jpg')",
       },
     },
   },

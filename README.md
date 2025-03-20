@@ -2,7 +2,7 @@
 
 ![Portfolio Banner](asset/siddycoddy-no-bg.png)
 
-A modern, interactive portfolio website showcasing my journey as a developer, projects, and technical expertise.
+A modern, interactive portfolio website showcasing my journey as a developer, projects, and technical expertise ..
 
 ## ✨ Features
 

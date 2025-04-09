@@ -1,0 +1,1063 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIDDTHECODER</title>
+
+    <!-- Meta Tags From Google Serach Console -->
+    <meta name="google-site-verification"
+      content="vHsIqZFVdrhj_WGWoqGUQY7RPMXrp8GJe_x1uhrWexw" />
+
+    <!-- Meta Tags for SEO -->
+    <meta name="title"
+      content="Siddhant Yadav | Web Developer & Software Engineer | SiddTheCoder">
+    <meta name="description"
+      content="Portfolio of Siddhant Yadav, a web developer and software engineer specializing in front-end development, 3D websites, and JavaScript solutions. Discover projects, tutorials, and insights on web development and technology.">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://siddhantyadav.com.np/">
+    <meta property="og:title"
+      content="Siddhant Yadav | Web Developer & Software Engineer | SiddTheCoder">
+    <meta property="og:description"
+      content="Explore the portfolio of Siddhant Yadav (SiddTheCoder), where you’ll find innovative web solutions and projects in JavaScript, 3D web design, and more.">
+    <meta property="og:image"
+      content="https://siddhantyadav.com.np/your-thumbnail-image.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://siddhantyadav.com.np/">
+    <meta property="twitter:title"
+      content="Siddhant Yadav | Web Developer & Software Engineer | SiddTheCoder">
+    <meta property="twitter:description"
+      content="Discover the portfolio of Siddhant Yadav, also known as SiddTheCoder. Dive into web development projects and resources.">
+    <meta property="twitter:image"
+      content="https://siddhantyadav.com.np/your-thumbnail-image.jpg">
+
+    <meta name="keywords"
+      content="Siddhant Yadav, SiddTheCoder, web developer, software engineer, JavaScript, front-end developer, 3D websites, coding tutorials, Nepal developer, Siddhant Yadav portfolio">
+
+    <!-- FavIcon -->
+    <link rel="apple-touch-icon" sizes="180x180"
+      href="asset/favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32"
+      href="asset/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16"
+      href="asset/favicon/favicon-16x16.png" />
+    <link rel="icon" href="asset/favicon/favicon.ico" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- font Awesome -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font Awesome -->
+
+    <!-- font Silkscreen -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- font [ Rubik Bubbles ] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap"
+      rel="stylesheet" />
+
+    <!-- FONT CAVIET -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap"
+      rel="stylesheet" />
+
+    <!-- FOTN EXO -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet" />
+
+    <style>
+    html {
+      scroll-behavior: smooth;
+
+     /* Custom styles for card and gloss effect */
+     .card {
+      transition: transform 0.2s ease-out;
+      box-shadow: 0 5px 10px 0px #7e22ce94;
+    }
+    #card:hover{
+      box-shadow: 0 6px 20px #7E22CE
+    }
+    #gloss {
+      position: absolute;
+      transition: opacity 0.2s ease-out, transform 0.2s ease-out;
+      pointer-events: none;
+    }
+
+    .blur-overlay {
+      position: fixed;
+      inset: 0;
+      /* Cover entire viewport */
+      background-color: rgba(0, 0, 0, 0.5);
+      /* Semi-transparent overlay */
+      backdrop-filter: blur(8px);
+      /* Adjust the blur intensity as needed */
+      z-index: 10;
+      /* Layer it just below the certificate showcase */
+    }
+
+    .certificate-showcase {
+      z-index: 20;
+      /* Ensure it’s above the blur overlay */
+    }
+
+    .certificate-showcase-content {
+      filter: none;
+      /* Ensure the content inside showcase is sharp */
+    }
+
+    }
+  </style>
+  </head>
+  <script src="script/SEO.js"></script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Siddhant Yadav",
+    "alternateName": ["SiddTheCoder", "SiddyCoddy"],
+    "url": "https://siddhantyadav.com.np/",
+    "jobTitle": "Web Developer & Software Engineer",
+    "description": "Siddhant Yadav, also known as SiddTheCoder, is a web developer specializing in JavaScript and 3D web solutions.",
+    "sameAs": [
+        "https://www.facebook.com/siddthecoder",
+        "https://www.instagram.com/siddhant_.ydv/",
+        "https://github.com/siddthecoder"
+    ]
+}
+  </script>
+
+  <body class="bg-slate-900">
+
+    <!-- Nav Bar Starts -->
+    <nav id="navbar"
+      class="h-14 min-w-full bg-purple-700 flex justify-between items-center sm:px-10 px-5 fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out">
+      <ul class="flex items-center">
+        <img class="w-10 h-10" src="asset/siddycoddy-no-bg.png" alt="Logo" />
+        <a href="https://www.siddhantyadav.com.np"><li
+            class="hidden sm:block ml-1 text-lg text-orange-100 font-silkscreen">
+            S I D D T H E C O D E R
+          </li></a>
+      </ul>
+
+      <ul class="sm:flex gap-8 hidden justify-center items-center">
+        <li
+          class="list-none text-sm font-[450] font-happyMonkey text-white cursor-pointer hover:text-slate-400">
+          <a
+            class="px-4 py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100"
+            href="#secction-project">Projects</a>
+        </li>
+        <li
+          class="list-none text-sm font-[450] font-happyMonkey text-white cursor-pointer hover:text-slate-400">
+          <a
+            class=" py-2 -ml-5  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100"
+            href="#Hero-One">Skills</a>
+        </li>
+        <li
+          class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+          <a href="https://www.facebook.com/siddthecoder"><i
+              class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a>
+          <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a> -->
+        </li>
+        <li
+          class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+          <a href="https://www.instagram.com/siddhant_.ydv"><i
+              class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a>
+          <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a> -->
+        </li>
+        <li
+          class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+          <a href="https://github.com/SiddTheCoder"><i
+              class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a>
+          <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a> -->
+        </li>
+      </ul>
+
+      <ul class="flex">
+        <div id="navWrapper"
+          class="sm:hidden block text-purple-100 text-2xl cursor-pointer">
+          <i class="fa-duotone fa-solid fa-bars"></i>
+        </div>
+        <div class="hidden sm:block">
+          <div id="showUpcomingMessage"
+            class="bg-purple-500 rounded font-happyMonkey hover:transition-all cursor-pointer text-white border px-4 text-sm pb-1 py-[5px] hover:bg-purple-700">
+            Join
+          </div>
+          <!-- The Message To show -->
+          <div>
+            <div id="upcomingMessageInfo"
+              class=" z-[1000] shadow-[-4px_4px_42px_2px_#a700bd] hidden opacity-0 fixed left-2 bottom-2 bg-purple-900 h-10 w-80 rounded justify-center items-center gap-2 transition-opacity duration-500 ease-in-out">
+              <div class="text-purple-500">
+                <img class="w-8" src="asset/siddycoddy-no-bg.png" alt>
+              </div>
+              <div class="text-purple-300">Available After Upcoming Update</div>
+            </div>
+          </div>
+          <!-- The Message To show -->
+          <script src="script/upcomingInformer.js"></script>
+          <!-- The Script to add -->
+        </div>
+      </ul>
+    </nav>
+
+    <!-- NavBar SideBar -->
+    <div id="wrap"
+      class="bg-purple-700/30 backdrop-blur-md h-[100vh] w-80 fixed right-0 top-0 z-[100000] p-5 transition-all ease-in-out duration-300 rounded-r-md text-white flex flex-col translate-x-96">
+      <div class="flex justify-between items-center px-2 pr-3">
+        <div class="text-2xl text-purple-300">
+          <i class="fa-duotone fa-solid fa-eye fa-shake"></i>
+        </div>
+        <div id="wrapCloser" class="text-purple-300 text-3xl mb-2">
+          <i class="fa-regular fa-square-caret-left"></i>
+        </div>
+      </div>
+      <hr>
+      <div class="flex-col flex mb-4">
+        <li
+          class="list-none text-lg sm:text-sm font-[450] font-exo sm:font-happyMonkey text-white cursor-pointer hover:text-slate-400 mb-3 mt-5">
+          <a
+            class="py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100"
+            href="#secction-project">Projects</a>
+        </li>
+        <li
+          class="list-none text-lg sm:text-sm font-[450] font-exo sm:font-happyMonkey text-white cursor-pointer hover:text-slate-400 mb-3">
+          <a
+            class="py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100"
+            href="#Hero-One">Skills</a>
+        </li>
+        <li
+          class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+          <a href="https://www.facebook.com/siddthecoder">
+            <i
+              class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a>
+        </li>
+        <li
+          class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+          <a href="https://www.instagram.com/siddhant_.ydv"><i
+              class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a>
+        </li>
+        <li
+          class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
+          <a href="https://github.com/SiddTheCoder"><i
+              class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a>
+        </li>
+      </div>
+      <hr>
+      <div class="mt-5 mb-4">
+        <ul
+          class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">FAQs</ul>
+        <ul
+          class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Expertise</ul>
+        <ul
+          class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Skills</ul>
+        <ul
+          class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Service</ul>
+        <ul
+          class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Blogs</ul>
+        <ul
+          class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Contact
+          Me</ul>
+      </div>
+      <hr>
+      <div>
+        <img src="asset/video/code-processing.gif" alt>
+      </div>
+      <hr>
+
+    </div>
+    <!-- Script for navWrapper -->
+    <script>
+    document.querySelector('#navWrapper').addEventListener('click', ()=>{
+      document.getElementById('wrap').classList.remove('translate-x-96')
+      document.getElementById('wrap').classList.add('translate-x-0')
+    })
+    document.querySelector('#wrapCloser').addEventListener('click', ()=>{
+      document.getElementById('wrap').classList.add('translate-x-96')
+      document.getElementById('wrap').classList.remove('translate-x-0')
+    })
+  </script>
+    <!-- NavBar SideBar -->
+    <!-- Script for navbar for appearing in anti-scroll -->
+    <script>
+     let lastScroll = 0;
+     const navbar = document.getElementById("navbar");
+     
+     window.addEventListener("scroll", () => {
+       const currentScroll = window.pageYOffset;
+       
+       if (currentScroll <= 0) {
+         navbar.classList.remove("-translate-y-full");
+       }
+     
+       if (currentScroll > lastScroll) {
+         // Scrolling down, hide navbar
+         navbar.classList.add("-translate-y-full");
+       } else {
+         // Scrolling up, show navbar
+         navbar.classList.remove("-translate-y-full");
+       }
+       
+       lastScroll = currentScroll;
+     });
+  </script>
+    <!-- Nav Bar Ends -->
+
+    <!-- Lander Begins here -->
+    <main id="main" class="mt-12">
+      <div class="h-auto mb-10 bg-slate-950 text-white flex justify-center">
+        <div class="hidden md:block w-[15%] h-full">
+          <ul class="flex flex-col items-center">
+            <li
+              class="h-16 w-16 rounded rotate-12 bg-purple-700 mt-10 left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-10" src="asset/one.png" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-10" src="asset/kanyam1.jpg"
+                alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-1" src="asset/night2.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-5" src="asset/kanyam2.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-1" src="asset/isckon.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-0" src="asset/night1.jpg" alt />
+            </li>
+          </ul>
+        </div>
+        <div
+          class="w-full sm:w-[80%] h-full p-4 flex flex-col sm:flex-row items-start sm:justify-items-center sm:justify-around py-4 sm:py-10">
+          <div class="sm:pl-9 sm:w-[80%] sm:min-w-[50%] w-full h-full sm:mt-12">
+            <div class="h-8 relative">
+              A Great
+              <span
+                class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Tech
+                Company</span>
+              in this Era
+            </div>
+            <div
+              class="font-['Rubik Bubbles'] text-4xl sm:text-5xl text-purple-400">
+              S I D D Y C O D D Y
+            </div>
+            <div class="mt-4 h-8 relative">
+              The Great Developer
+              <span
+                class="bg-purple-300 text-purple-950 px-1 pl-1 py-0.5 rounded mr-1">Siddhant
+                Yadav </span>Known By
+            </div>
+            <div
+              class="font-['Rubik Bubbles'] text-3xl sm:text-[30px] text-purple-300 mt-3 sm:mt-0">
+              S I D D T H E C O D E R
+            </div>
+
+            <div class="mt sm:mt-16 w-full">
+              <h2 class="define-ownself text-lg font-exo sm:font-happyMonkey">
+                <span
+                  class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Wondering</span>
+                Who am <span class="text-4xl">I</span> ? <br />Here You Got
+                <br />
+                Bloody
+                <span
+                  class="typed-text font-silkscreen text-purple-400 text-3xl"></span><span
+                  class="cursor">&nbsp;</span>
+              </h2>
+              <script src="script/autoText.js"></script>
+            </div>
+
+            <div class="grid place-items-center">
+              <img
+                class="sm:hidden block transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-48"
+                src="asset/mmbg (1).png" alt="Hero" />
+            </div>
+
+            <div class="mt-16">
+              <ul class="flex gap-y-20 sm:flex-row justify-start gap-10">
+                <a href='https://siddthecoder.github.io/NOTY/'
+                  class="lander border w-56 rounded flex justify-center items-center p-2 bg-purple-700 cursor-pointer border-purple-950 hover:bg-purple-950 transition-all">
+                  Latest Project
+                </a>
+                <li
+                  class="lander-btn border w-56 rounded flex justify-center items-center p-2 bg-purple-700 cursor-pointer border-purple-950 hover:bg-purple-950 transition-all">
+                  Join My Chromosome
+                </li>
+              </ul>
+            </div>
+          </div>
+          <script>
+  document.querySelectorAll('.lander-btn').forEach( (btn)=>{
+    btn.addEventListener('click', (e) => {
+      const prevValue = e.target.textContent
+      e.target.textContent = 'Update Coming'
+      setTimeout(function(){
+        e.target.textContent = `${prevValue}`
+      },3000)
+    })
+  })
+</script>
+          <div class="h-full grid place-items-center">
+            <img
+              class="hidden sm:block w-[100%] relative bottom-16 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
+              src="asset/mmbg (1).png" alt="Hero" />
+          </div>
+        </div>
+        <div class="hidden md:block w-[15%] h-full">
+          <ul class="flex flex-col items-center">
+            <li
+              class="h-16 w-16 rounded rotate-12 bg-purple-700 mt-10 left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-0" src="asset/sidelook.jpg"
+                alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-2" src="asset/farewll.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-0" src="asset/funky.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-0" src="asset/ylSwag.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-0" src="asset/coat.jpg" alt />
+            </li>
+            <li
+              class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
+              <img class="w-22 relative bottom-0" src="asset/baby.jpg" alt />
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <!-- Lander Terminate here -->
+
+    <!-- Project Section Starts -->
+    <section id="secction-project"
+      class="h-auto w-full text-white flex flex-col items-center p-5">
+
+      <div>
+        <!-- 1st row -->
+        <p class="text-xl">
+          Recents
+          <span
+            class="bg-purple-800 text-white rounded px-3 text-2xl pb-1 font-silkscreen">Project</span>
+          Showcase
+        </p>
+        <div
+          class="w-auto mt-2 border-b-purple-600 border-b-4 shadow-purple-400 shadow-xl"></div>
+      </div>
+
+      <div
+        class="w-full p-4 flex flex-wrap px-1 mt-4 sm:pl-10 justify-center md:justify-center gap-10 sm:gap-22">
+
+        <!-- Card Structure with Tailwind CSS and JavaScript -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden  shadow-2xl shadow-blue-500/20">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6 -translate-y-[1px]"
+              src="asset/js-number-gusser.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            <span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">Modern
+              Auth</span>
+            TODO APP
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "A modern TODO App purely made in Javscript and its library REACT.js with some extra components partners"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a href="https://siddthecoder.github.io/NOTY/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden  shadow-2xl shadow-blue-500/20">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6 -translate-y-[1px]"
+              src="asset/js-number-gusser.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            <span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">DOM</span>
+            Number Guesser
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a href="https://siddthecoder.github.io/NumberGuesser-js/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+              src="asset/siddycoddy.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            <span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">Website</span>
+            SiddyCoddy
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a href="https://siddthecoder.github.io/Real-Site/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+              src="asset/store.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            <span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">E-Commerce</span>
+            Webiste
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a
+              href="https://siddthecoder.github.io/E-Commerce-Website-Frontend/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+              src="asset/facebook.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            Clone<span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen ml-2">Facebook</span>
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a href="https://siddthecoder.github.io/Blog-Facebook-Clone/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+              src="asset/data-cleaner.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            <span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">Data</span>
+            Cleaner
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a href="https://siddthecoder.github.io/Data-Filterer/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <div class="w-full h-78 bg-purple-400 overflow-hidden">
+            <img
+              class="grayscale-1 transition-all ease-in-out duration-500 hover:scale-110 hover:-rotate-6"
+              src="asset/githubUserFinder.png" alt="JavaScript Image" />
+          </div>
+          <!-- Card content -->
+          <div class="p-1 font-happyMonkey text-2xl">
+            <span
+              class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen">Github</span>
+            User Finder
+          </div>
+          <!-- Card description -->
+          <p class="p-1 font-exo font-extralight tracking-wider text-sm">
+            "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations"
+          </p>
+          <!-- Card button -->
+          <div class="p-1">
+            <a
+              href="https://siddthecoder.github.io/Githb-Profile-Search.APP/"><span
+                class="bg-purple-800 text-white rounded pb-1 px-2 font-silkscreen hover:px-10 ease-in-out transition-all duration-300">Visit</span></a>
+          </div>
+
+        </div>
+        <!-- Card Ends Here -->
+
+        <!-- Card Starts Here -->
+        <div id="card"
+          class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg items-center justify-center cursor-no-drop">
+          <div id="gloss" class="gloss rounded-full"></div>
+          <!-- Gloss effect element -->
+          <!-- Card image section -->
+          <h1>Coming Soon</h1>
+        </div>
+        <script type="module" src="script/cardTilter.js"></script>
+        <!-- Card Ends Here -->
+
+      </div>
+
+    </section>
+    <!-- Project Section Ends -------------------0----------------------------------------------------------------------0--------------------------------------------------------->
+
+    <!-- Hero 1 Starts -->
+   <section id="Hero-One" class="parent h-auto w-full bg-slate-200">
+  <div class="bg-gradient-to-r from-violet-500 to-purple-500 h-[100px] flex flex-col px-7 pb-4 ">
+    
+    <div class="text-purple-300 text-2xl font-exo sm:font-silkscreen text-center mt-3 mb-2">
+      Since <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded text-3xl">Accquired</span> Skills
+    </div>
+    <hr>
+
+    <!-- Centering the Skills -->
+<div class="w-[60%] mx-auto h-full flex justify-center items-center flex-wrap gap-8 mt-4">
+
+  <!-- HTML Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- CSS Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- JavaScript Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- React Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- Node.js Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- MongoDB Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- Python Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- C Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- C++ Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- Git Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- GitHub Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="h-12 w-12">
+    </div>
+  </div>
+  
+
+  <!-- Postman Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- Express Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" class="h-12 w-12">
+    </div>
+  </div>
+
+  <!-- Redux Toolkit Skill -->
+  <div class="skill-logo-container">
+    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux Toolkit" class="h-12 w-12">
+    </div>
+  </div>
+
+</div>
+
+  </div>
+
+  <!-- Blurred overlay (invisible by default) -->
+  <div class="blur-overlay hidden fixed inset-0 bg-white/50 backdrop-blur-sm"></div>
+
+  <!-- Certificate Showcase -->
+  <div id="certificate-showcase" class="certificate-showcase hidden rounded h-[100vh] w-full sm:h-[80vh] sm:w-[700px] bg-purple-400 absolute sm:fixed top-0 right-0 -translate-x-7">
+    <div class="h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full flex flex-col">
+      <!-- Certificate Closer -->
+      <div class="w-full flex justify-end">
+        <div class="certificate-showcase-closer w-auto text-center p-4 mr-5 cursor-pointer text-xl text-white" title="close">✖</div>
+      </div>
+      <!-- Minor Slogan -->
+      <div class="w-full text-center text-purple-300">" Code Gives Another Perspective to Life "</div>
+
+      <!-- Certificate Holder Img -->
+      <div class="w-full flex justify-center mt-4">
+        <div class="h-32 w-32 bg-yellow-50 rounded-full overflow-hidden">
+          <img class="scale-[2] -translate-x-4 translate-y-5" src="asset/selfe1.jpg" alt="Profile Image" title="Profile Image">
+        </div>
+      </div>
+
+      <!-- Certificate Holder Name -->
+      <div class="w-full text-center text-purple-200 text-2xl sm:font-silkscreen font-exo">Siddhant Yadav</div>
+
+      <!-- Certificate Body Message -->
+      <div class="w-full text-center text-white text-sm px-5 font-exo">
+        <p>This is certificate of completed this Language Class from <span class="tracking-widest">SIDDYCODDY</span> Academy</p>
+        <br>
+        <p>SIDDYCODDY is one of the greatest platform from where billion of students get their desired skill built in their chromosome with the advanced technology of PARTH <span class="text-[10px]">V.2.3.99.0</span></p>
+      </div>
+
+      <!-- Signature & Logo Section -->
+      <div class="flex gap-10 justify-between px-10 mt-20 sm:mt-44">
+        <div>
+          <img class="w-32 sm:w-44" src="asset/siddycoddy-transparent.png" alt>
+        </div>
+        <div class="-rotate-6">
+          <img class="w-52 sm:w-80" src="asset/siddy-signature.png" alt>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Script to tilt the card -->
+<script type="module" src="script/cardTilter.js"></script>
+
+<!-- Script for Certificate Showcase -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const certificateShowcase = document.querySelector('.certificate-showcase');
+    const blurOverlay = document.querySelector('.blur-overlay');
+
+    document.querySelectorAll('.certificate-btn').forEach((certificate) => {
+      certificate.addEventListener('click', () => {
+        blurOverlay.classList.remove('hidden');
+        certificateShowcase.classList.remove('hidden');
+        certificateShowcase.classList.add('block');
+      });
+    });
+
+    document.querySelector('.certificate-showcase-closer').addEventListener('click', () => {
+      blurOverlay.classList.add('hidden');
+      certificateShowcase.classList.add('hidden');
+      certificateShowcase.classList.remove('block');
+    });
+  });
+</script>
+
+<!-- Script for Skill Showcase Switcher -->
+<script>
+  document.querySelectorAll('.skill-switcher-initial').forEach((switcher) => {
+    switcher.addEventListener('click', () => {
+      const container = switcher.closest('.flex.flex-col');
+      container.querySelector('.initial').classList.toggle('hidden');
+      container.querySelector('.final').classList.toggle('hidden');
+    });
+  });
+</script>
+
+    <!-- Hero 1 Ends -->
+
+
+
+    
+    <!-- Footer Starts Here -->
+    <footer class="bg-purple-700 h-auto w-full flex flex-col p-1">
+      <div class="h-[85vh] w-full sm:mt-12 mt-8">
+        <div class="text-white w-full text-left sm:text-center text-2xl pl-2">
+          <p>The <span
+              class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded text-3xl font-silkscreen">In Demand</span>
+            Developer</p>
+        </div>
+        <div
+          class="w-full h-[80vh] flex flex-col sm:flex-row px-5 sm:justify-center items-center">
+          <!-- CSS GRID IMAGE GALLARY -->
+          <div class="w-full mt-3 sm:pl-32">
+            <p
+              class="text-purple-300 bg-purple-950 text-xl border border-purple-600 cursor-pointer hover:border-purple-800 transition-all ease-out duration-150 mb-4 w-40 p-3 text-center hover:bg-purple-700 hover:text-white">Gallery</p>
+            <div class="w-full grid grid-cols-5 sm:grid-cols-5 gap-4">
+              <div class="grid gap-4">
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/nightffade.jpg" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/jnk-fade.jpg" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/selfe2.jpg" alt>
+                </div>
+              </div>
+              <div class="grid gap-4">
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/coat.jpg" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/nightsode2.jpg" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/jnk-pic.jpg" alt>
+                </div>
+              </div>
+              <div class="grid gap-4">
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/kanyam1.jpg" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/isckon.jpg" alt>
+                </div>
+
+              </div>
+              <div class="grid gap-4">
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/sidelook.jpg" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200 scale-105"
+                    src="asset/one.png" alt>
+                </div>
+                <div>
+                  <img
+                    class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200"
+                    src="asset/funky.jpg" alt>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- CSS GRID IMAGE GALLARY -->
+
+          <!-- LInks -->
+          <div
+            class="w-full mt-2 flex sm:items-center flex-col justify-center gap-5">
+            <div class="w-[30vw] rounded-3xl overflow-hidden">
+              <video muted autoplay loop
+                src="asset/video/SiddYCoddy-Academy Intro.mp4"
+                class="hidden sm:block"></video>
+            </div>
+            <div class="flex gap-10 mb-5">
+              <ul class="text-white">
+                <p
+                  class="cursor-pointer py-2 w-52 font-bold hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100">Chromosome
+                  Showcase</p>
+                <li
+                  class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">FAQs</li>
+                <li
+                  class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Gmail</li>
+                <li
+                  class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Contact</li>
+                <li
+                  class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Blogs</li>
+                <li
+                  class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Recents
+                  Project</li>
+                <li
+                  class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Upcoming
+                  Chromosome</li>
+              </ul>
+              <div class="hidden sm:block">
+                <img class="rounded-md" loading="lazy"
+                  src="asset/video/coding.gif" alt>
+              </div>
+              <div class="flex justify-end items-end mb-5">
+                <a href="#main"
+                  class="bg-purple-800 hover:bg-purple-700 transition-all ease-out duration-200 p-5 rounded-full border border-x-white"
+                  title="TOP">
+                  <i
+                    class="fa-duotone fa-solid fa-up-long text-white text-2xl"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- LInks -->
+        </div>
+      </div>
+      <!-- Copright section -->
+      <div class="mt-5 sm:hidden"></div>
+      <hr>
+      <div
+        class="mt-1 mb-4 h-auto w-full flex flex-col justify-center sm:flex-row text-white items-center sm:justify-center sm:gap-11">
+        <p class="text-sm font-happyMonkey">
+          &copy; <span id="currentYear"></span> Siddhant Yadav. All rights
+          reserved.
+        </p>
+        <p class="text-sm">Made with ❤️</p>
+        <p class="text-sm">
+          Developed by <a href="https://www.siddhantyadav.com.np"
+            class="text-orange-100 hover:underline text-lg font-silkscreen">SiddTheCoder</a>
+        </p>
+        <script>
+      document.getElementById("currentYear").textContent = new Date().getFullYear();
+  </script>
+      </div>
+      <!-- Copright section -->
+
+    </footer>
+    <!-- Footer Ends Here -->
+
+  </body>
+
+</html>

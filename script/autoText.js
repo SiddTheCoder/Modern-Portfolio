@@ -1,7 +1,7 @@
 const typedTextSpan = document.querySelector(".typed-text");
 const cursor = document.querySelector(".cursor");
 
-const words = ["Front-End Developer", "Back-End Developer", "Graphic Designer", "Full-Stack Web Developer", "AI / Ml Engineer"];
+const words = ["Front-End Developer", "Back-End Developer", "Full-Stack Web Developer", "AI / Ml Engineer"];
 const typingDelay = 180;
 const erasingDelay = 170;
 const newLetterDelay = 500;

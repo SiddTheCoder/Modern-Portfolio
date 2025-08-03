@@ -1,61 +1,78 @@
 
 const projects = [
   {
-    title: 'WebChat App - Bolum',
-    coverImage: 'https://camo.githubusercontent.com/cbd7d9d0a3a048c35ab342134cc8c77b4c8ad306c0c051a7f4cc9e5e1b43ca8a/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64697a6a74746678332f696d6167652f75706c6f61642f666c5f70726573657276655f7472616e73706172656e63792f76313735303038333937312f53637265656e73686f745f39395f716679676c622e6a70673f5f733d7075626c69632d61707073',
-    description: 'A fully functional web chat app supporting millions of user providing them seamless conversation within real time.',
-    visitLink: 'https://bolum.netlify.app',
-    stackType: 'Full-Stack'
+    title: "MoodMate - AI powered Mental Doctor",
+    coverImage: "asset/moodemate-cover.png",
+    description:
+      "MoodMate is your AI-powered mental wellness companion. From booking doctor appointments to joining supportive communities, MoodMate helps you take control of your emotional health. Chat in real-time with our smart assistant that detects your mood, offers calming resources, and connects you with experts when needed. Whether you're feeling low, anxious, or just need someone to talk to—MoodMate is here for you.",
+    visitLink: "https://moodemate.netlify.app",
+    stackType: "Full-Stack",
   },
   {
-    title: 'Modern Todo App - NOTY',
-    coverImage: 'asset/js-number-gusser.png',
-    description: 'A modern TODO App purely made in Javscript and its library REACT.js with some extra components partners',
-    visitLink: 'https://siddthecoder.github.io/NOTY',
-    stackType: 'Frontend'
+    title: "WebChat App - Bolum",
+    coverImage:
+      "https://camo.githubusercontent.com/cbd7d9d0a3a048c35ab342134cc8c77b4c8ad306c0c051a7f4cc9e5e1b43ca8a/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f64697a6a74746678332f696d6167652f75706c6f61642f666c5f70726573657276655f7472616e73706172656e63792f76313735303038333937312f53637265656e73686f745f39395f716679676c622e6a70673f5f733d7075626c69632d61707073",
+    description:
+      "A fully functional web chat app supporting millions of user providing them seamless conversation within real time.",
+    visitLink: "https://bolum.netlify.app",
+    stackType: "Full-Stack",
   },
   {
-    title: 'Number Guesser',
-    coverImage: 'asset/js-number-gusser.png',
-    description: 'An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations',
-    visitLink: 'https://siddthecoder.github.io/NumberGuesser-js/',
-    stackType: 'DOM'
+    title: "Modern Todo App - NOTY",
+    coverImage: "asset/js-number-gusser.png",
+    description:
+      "A modern TODO App purely made in Javscript and its library REACT.js with some extra components partners",
+    visitLink: "https://siddthecoder.github.io/NOTY",
+    stackType: "Frontend",
   },
   {
-    title: 'SiddyCoddy',
-    coverImage: 'asset/siddycoddy.png',
-    description: 'An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations',
-    visitLink: 'https://siddthecoder.github.io/Real-Site/',
-    stackType: 'Website'
+    title: "Number Guesser",
+    coverImage: "asset/js-number-gusser.png",
+    description:
+      "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations",
+    visitLink: "https://siddthecoder.github.io/NumberGuesser-js/",
+    stackType: "DOM",
   },
   {
-    title: 'E-Commerce Website',
-    coverImage: 'asset/store.png',
-    description: 'An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations',
-    visitLink: 'https://siddthecoder.github.io/E-Commerce-Website-Frontend/',
-    stackType: 'E-Commerce'
+    title: "SiddyCoddy",
+    coverImage: "asset/siddycoddy.png",
+    description:
+      "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations",
+    visitLink: "https://siddthecoder.github.io/Real-Site/",
+    stackType: "Website",
   },
   {
-    title: 'Facebook Clone',
-    coverImage: 'asset/facebook.png',
-    description: 'An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations',
-    visitLink: 'https://siddthecoder.github.io/Blog-Facebook-Clone/',
-    stackType: 'Clone'
+    title: "E-Commerce Website",
+    coverImage: "asset/store.png",
+    description:
+      "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations",
+    visitLink: "https://siddthecoder.github.io/E-Commerce-Website-Frontend/",
+    stackType: "E-Commerce",
   },
   {
-    title: 'Data Cleaner',
-    coverImage: 'asset/data-cleaner.png',
-    description: 'An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations',
-    visitLink: 'https://siddthecoder.github.io/Data-Filterer/',
-    stackType: 'Data'
+    title: "Facebook Clone",
+    coverImage: "asset/facebook.png",
+    description:
+      "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations",
+    visitLink: "https://siddthecoder.github.io/Blog-Facebook-Clone/",
+    stackType: "Clone",
   },
   {
-    title: 'GitHub User Finder',
-    coverImage: 'asset/githubUserFinder.png',
-    description: 'An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations',
-    visitLink: 'https://siddthecoder.github.io/Githb-Profile-Search.APP/',
-    stackType: 'Github'
-  }
+    title: "Data Cleaner",
+    coverImage: "asset/data-cleaner.png",
+    description:
+      "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations",
+    visitLink: "https://siddthecoder.github.io/Data-Filterer/",
+    stackType: "Data",
+  },
+  {
+    title: "GitHub User Finder",
+    coverImage: "asset/githubUserFinder.png",
+    description:
+      "An exceptional coder, Siddhant crafts top-notch solutions that deliver outstanding results for clients. He consistently creates services that exceed expectations",
+    visitLink: "https://siddthecoder.github.io/Githb-Profile-Search.APP/",
+    stackType: "Github",
+  },
 ];
 
 

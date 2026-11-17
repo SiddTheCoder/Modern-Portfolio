@@ -1,761 +1,356 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SIDDTHECODER</title>
-
-  <!-- Meta Tags From Google Serach Console -->
-  <meta name="google-site-verification" content="vHsIqZFVdrhj_WGWoqGUQY7RPMXrp8GJe_x1uhrWexw" />
-
-  <!-- Meta Tags for SEO -->
-<meta name="title" content="Siddhant Yadav | Web Developer & Software Developer | SiddTheCoder">
-<meta name="description" content="Portfolio of Siddhant Yadav, a great web developer and software developer specializing in full-stack web development, 3D websites, and JavaScript solutions. Discover projects, tutorials, and insights on web development and technology.">
-
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://siddhantyadav.com.np/">
-<meta property="og:title" content="Siddhant Yadav | Web Developer & Software Developer | SiddTheCoder">
-<meta property="og:description" content="Explore the portfolio of Siddhant Yadav (SiddTheCoder), where you’ll find innovative web solutions and projects in JavaScript, 3D web design, and more.">
-<meta property="og:image" content="https://res.cloudinary.com/dlrtkxkpg/image/upload/fl_preserve_transparency/v1749955814/w1web7sum7hwbhboqzxx.jpg?_s=public-apps">
-
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://siddhantyadav.com.np/">
-<meta property="twitter:title" content="Siddhant Yadav | Web Developer & Software Developer | SiddTheCoder">
-<meta property="twitter:description" content="Discover the portfolio of Siddhant Yadav, also known as SiddTheCoder. Dive into web development projects and resources.">
-<meta property="twitter:image" content="https://res.cloudinary.com/dlrtkxkpg/image/upload/fl_preserve_transparency/v1749955814/w1web7sum7hwbhboqzxx.jpg?_s=public-apps">
-
-<meta name="keywords" content="Siddhant Yadav, SiddTheCoder, web developer, software engineer, JavaScript, front-end developer, 3D websites, coding tutorials, Nepal developer, Siddhant Yadav portfolio">
-
-
-
-  <!-- FavIcon -->
-  <link rel="apple-touch-icon" sizes="180x180" href="asset/favicon/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="asset/favicon/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="asset/favicon/favicon-16x16.png" />
-  <link rel="icon" href="asset/favicon/favicon.ico" />
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css" />
-
-  <!-- font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- font Awesome -->
-
-  <!-- font Silkscreen -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet" />
-
-  <!-- font [ Rubik Bubbles ] -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap" rel="stylesheet" />
-
-  <!-- FONT CAVIET -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet" />
-
-  <!-- FOTN EXO -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
-    rel="stylesheet" />
-
-  <style>
-    html {
-      scroll-behavior: smooth;
-
-     /* Custom styles for card and gloss effect */
-     .card {
-      transition: transform 0.2s ease-out;
-      box-shadow: 0 5px 10px 0px #7e22ce94;
-    }
-    #card:hover{
-      box-shadow: 0 6px 20px #7E22CE
-    }
-    #gloss {
-      position: absolute;
-      transition: opacity 0.2s ease-out, transform 0.2s ease-out;
-      pointer-events: none;
-    }
-
-    .blur-overlay {
-      position: fixed;
-      inset: 0;
-      /* Cover entire viewport */
-      background-color: rgba(0, 0, 0, 0.5);
-      /* Semi-transparent overlay */
-      backdrop-filter: blur(8px);
-      /* Adjust the blur intensity as needed */
-      z-index: 10;
-      /* Layer it just below the certificate showcase */
-    }
-
-    .certificate-showcase {
-      z-index: 20;
-      /* Ensure it’s above the blur overlay */
-    }
-
-    .certificate-showcase-content {
-      filter: none;
-      /* Ensure the content inside showcase is sharp */
-    }
-
-    }
-  </style>
-</head>
-<script src="script/SEO.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Siddhant Yadav (SiddTheCoder) | Founder &amp; CTO of Softmato, Nepal</title>
+<meta name="description" content="Siddhant Yadav (SiddTheCoder) is a software engineer in Kathmandu, Nepal and the Founder, Director and CTO of Softmato Technology, maker of HostelPalika and QuestionCall.">
+<link rel="canonical" href="https://www.siddhantyadav.com.np/">
+<meta name="author" content="Siddhant Yadav">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+<meta name="google-site-verification" content="vHsIqZFVdrhj_WGWoqGUQY7RPMXrp8GJe_x1uhrWexw">
+<meta name="theme-color" content="#121212">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Siddhant Yadav">
+<meta property="og:title" content="Siddhant Yadav (SiddTheCoder) | Founder &amp; CTO of Softmato">
+<meta property="og:description" content="Software engineer in Kathmandu, Nepal. Founder, Director and CTO of Softmato Technology, maker of HostelPalika and QuestionCall.">
+<meta property="og:url" content="https://www.siddhantyadav.com.np/">
+<meta property="og:image" content="https://www.siddhantyadav.com.np/img/og-siddhant-yadav.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Two black and white portraits of Siddhant Yadav in sunglasses with the text Founder and CTO, Softmato">
+<meta property="profile:first_name" content="Siddhant">
+<meta property="profile:last_name" content="Yadav">
+<meta property="profile:username" content="siddthecoder">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@SiddTheCoder">
+<meta name="twitter:creator" content="@SiddTheCoder">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32.png">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="preload" href="/fonts/barlow-condensed-800.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/open-sauce-one-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/img/hero-coder-900.webp" as="image" imagesrcset="/img/hero-coder-560.webp 560w, /img/hero-coder-900.webp 900w" imagesizes="(min-width: 1000px) 400px, 46vw">
+<script>try{if(!sessionStorage.getItem("sy.intro")){document.documentElement.classList.add("film");sessionStorage.setItem("sy.intro","1")}}catch(e){}</script>
+<link rel="stylesheet" href="/style.css">
 <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Siddhant Yadav",
-    "alternateName": ["SiddTheCoder", "SiddyCoddy"],
-    "url": "https://siddhantyadav.com.np/",
-    "jobTitle": "Web Developer & Software Developer",
-    "description": "Siddhant Yadav, also known as SiddTheCoder, is a full-stack web developer specializing in JavaScript and 3D web solutions.",
-    "sameAs": [
-        "https://www.facebook.com/siddthecoder",
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://www.siddhantyadav.com.np/#website",
+      "url": "https://www.siddhantyadav.com.np/",
+      "name": "Siddhant Yadav",
+      "alternateName": ["SiddTheCoder", "Siddhant Yadav Portfolio"],
+      "inLanguage": "en",
+      "publisher": { "@id": "https://www.siddhantyadav.com.np/#person" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://www.siddhantyadav.com.np/#person",
+      "name": "Siddhant Yadav",
+      "givenName": "Siddhant",
+      "familyName": "Yadav",
+      "alternateName": ["SiddTheCoder", "Sidd", "SiddyCoddy"],
+      "url": "https://www.siddhantyadav.com.np/",
+      "image": "https://www.siddhantyadav.com.np/img/siddhant-yadav.jpg",
+      "email": "mailto:siddthecoder@gmail.com",
+      "jobTitle": ["Founder", "Director", "Chief Technology Officer"],
+      "description": "Siddhant Yadav (SiddTheCoder) is a software engineer and entrepreneur in Kathmandu, Nepal. He is a founder, board director and the CTO of Softmato Technology Pvt Ltd, which builds HostelPalika, QuestionCall and Spark.",
+      "worksFor": { "@id": "https://softmato.com/#organization" },
+      "homeLocation": { "@type": "Place", "name": "Kathmandu, Nepal", "address": { "@type": "PostalAddress", "addressLocality": "Kathmandu", "addressCountry": "NP" } },
+      "award": ["Hackathon MVP for MoodMate (2025)"],
+      "knowsAbout": ["Full-stack web development", "TypeScript", "React", "Next.js", "Node.js", "MongoDB", "React Native", "Electron", "Python", "FastAPI", "Large language models", "Voice assistants", "Payment integration (eSewa, Khalti, Fonepay)", "Software architecture"],
+      "sameAs": [
+        "https://github.com/SiddTheCoder",
+        "https://www.linkedin.com/in/siddthecoder",
+        "https://www.instagram.com/siddthecoder/",
         "https://www.instagram.com/siddhant_.ydv/",
-        "https://github.com/siddthecoder"
-    ]
+        "https://www.facebook.com/siddthecoder",
+        "https://x.com/SiddTheCoder"
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://softmato.com/#organization",
+      "name": "Softmato",
+      "legalName": "Softmato Technology Pvt Ltd",
+      "url": "https://softmato.com",
+      "email": "support@softmato.com",
+      "duns": "557779947",
+      "address": { "@type": "PostalAddress", "addressLocality": "Kathmandu", "addressCountry": "NP" },
+      "founder": [
+        { "@id": "https://www.siddhantyadav.com.np/#person" },
+        { "@type": "Person", "name": "Jiwan Mijhar", "jobTitle": "Founder, Chairperson and CEO" }
+      ],
+      "brand": [
+        { "@type": "Brand", "name": "HostelPalika", "url": "https://hostelpalika.com" },
+        { "@type": "Brand", "name": "QuestionCall", "url": "https://questioncall.com" },
+        { "@type": "Brand", "name": "Spark", "url": "https://softmato.com/products/spark" }
+      ],
+      "sameAs": ["https://www.linkedin.com/company/softmato", "https://github.com/softmato"]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.siddhantyadav.com.np/#projects",
+      "name": "Projects by Siddhant Yadav",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "item": { "@type": "WebApplication", "name": "HostelPalika", "url": "https://hostelpalika.com", "applicationCategory": "BusinessApplication", "operatingSystem": "Web, Android", "description": "Hostel management software for Nepal: rent, food, attendance, guardians and hostel search.", "creator": { "@id": "https://softmato.com/#organization" } } },
+        { "@type": "ListItem", "position": 2, "item": { "@type": "WebApplication", "name": "QuestionCall", "url": "https://questioncall.com", "applicationCategory": "EducationalApplication", "operatingSystem": "Web", "description": "Students post questions and teachers answer live over chat, files, audio or video.", "creator": { "@id": "https://softmato.com/#organization" } } },
+        { "@type": "ListItem", "position": 3, "item": { "@type": "WebApplication", "name": "ELMS", "url": "https://elms-lac.vercel.app", "applicationCategory": "EducationalApplication", "operatingSystem": "Web", "description": "Learning workspace for Danfe College built with Next.js, MongoDB and Socket.IO.", "creator": { "@id": "https://www.siddhantyadav.com.np/#person" } } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "WebApplication", "name": "MoodMate", "url": "https://moodemate.netlify.app", "applicationCategory": "HealthApplication", "operatingSystem": "Web", "description": "AI mental wellness companion. Hackathon MVP winner.", "creator": { "@id": "https://www.siddhantyadav.com.np/#person" } } },
+        { "@type": "ListItem", "position": 5, "item": { "@type": "WebApplication", "name": "Bolum", "url": "https://bolum.netlify.app", "applicationCategory": "CommunicationApplication", "operatingSystem": "Web", "description": "Real-time chat with an AI mentor bot.", "creator": { "@id": "https://www.siddhantyadav.com.np/#person" } } },
+        { "@type": "ListItem", "position": 6, "item": { "@type": "WebApplication", "name": "Anbari", "url": "https://anbari.netlify.app", "applicationCategory": "ShoppingApplication", "operatingSystem": "Web", "description": "Multi-store e-commerce platform.", "creator": { "@id": "https://www.siddhantyadav.com.np/#person" } } }
+      ]
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://www.siddhantyadav.com.np/#webpage",
+      "url": "https://www.siddhantyadav.com.np/",
+      "name": "Siddhant Yadav (SiddTheCoder) | Founder & CTO of Softmato, Nepal",
+      "isPartOf": { "@id": "https://www.siddhantyadav.com.np/#website" },
+      "mainEntity": { "@id": "https://www.siddhantyadav.com.np/#person" },
+      "primaryImageOfPage": "https://www.siddhantyadav.com.np/img/og-siddhant-yadav.jpg",
+      "dateModified": "2026-11-17",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://www.siddhantyadav.com.np/#faq",
+      "url": "https://www.siddhantyadav.com.np/",
+      "isPartOf": { "@id": "https://www.siddhantyadav.com.np/#website" },
+      "about": { "@id": "https://www.siddhantyadav.com.np/#person" },
+      "mainEntity": [
+        { "@type": "Question", "name": "Who is Siddhant Yadav?", "acceptedAnswer": { "@type": "Answer", "text": "Siddhant Yadav is a software engineer and entrepreneur from Kathmandu, Nepal. He is a founder, a board director and the CTO of Softmato Technology Pvt Ltd, where he leads engineering for HostelPalika, QuestionCall and Spark. Online he goes by SiddTheCoder." } },
+        { "@type": "Question", "name": "Is SiddTheCoder the same person as Siddhant Yadav?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SiddTheCoder, or Sidd for short, is the handle Siddhant Yadav uses on GitHub, LinkedIn, Instagram, Facebook and X. His earliest projects were published under the name SiddyCoddy." } },
+        { "@type": "Question", "name": "What is Softmato?", "acceptedAnswer": { "@type": "Answer", "text": "Softmato Technology Pvt Ltd is a registered software company in Kathmandu, Nepal. It builds its own products, HostelPalika, QuestionCall and Spark, and takes on project work: web apps, mobile apps, payment integration with eSewa, Khalti and Fonepay, UI/UX design and SEO." } },
+        { "@type": "Question", "name": "What does Siddhant Yadav do at Softmato?", "acceptedAnswer": { "@type": "Answer", "text": "As CTO he owns how the software gets built: the system architecture, the payment and accounting platform the products share, and the engineering standards. He writes code most days and reviews the rest." } },
+        { "@type": "Question", "name": "What technologies does Siddhant Yadav work with?", "acceptedAnswer": { "@type": "Answer", "text": "TypeScript and JavaScript across React, Next.js, Node.js, Express and MongoDB; React Native for mobile; Electron for desktop; and Python with FastAPI for AI services built on large language models and voice." } },
+        { "@type": "Question", "name": "How can I contact Siddhant Yadav?", "acceptedAnswer": { "@type": "Answer", "text": "Email siddthecoder@gmail.com or message SiddTheCoder on LinkedIn. For company projects, contact Softmato through softmato.com." } }
+      ]
+    }
+  ]
 }
-  </script>
-  
- 
-
-<body class="bg-slate-900 relative max-h-screen w-screen">
-
-
-  <!-- Nav Bar Starts -->
-  <nav id="navbar" class="h-14 min-w-full bg-purple-700 flex justify-between items-center sm:px-10 px-5 fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out">
-    <ul class="flex items-center">
-      <img class="w-10 h-10" src="asset/siddycoddy-no-bg.png" alt="Logo" />
-      <a href="https://www.siddhantyadav.com.np"><li class="hidden sm:block ml-1 text-lg text-orange-100 font-silkscreen">
-        S I D D T H E C O D E R
-      </li></a>
-    </ul>
-
-    <ul class="sm:flex gap-8 hidden justify-center items-center">
-      <li class="list-none text-sm font-[450] font-happyMonkey text-white cursor-pointer hover:text-slate-400">
-        <a class="px-4 py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100" href="#secction-project">Projects</a>
-      </li>
-      <li class="list-none text-sm font-[450] font-happyMonkey text-white cursor-pointer hover:text-slate-400">
-        <a class=" py-2 -ml-5  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100" href="#Hero-One">Skills</a>
-      </li>
-      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-        <a href="https://www.facebook.com/siddthecoder"><i
-            class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a>
-        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a> -->
-      </li>
-      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-        <a href="https://www.instagram.com/siddhant_.ydv"><i
-            class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a>
-        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a> -->
-      </li>
-      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-        <a href="https://www.linkedin.com/in/siddhant-yadav-58b682367"><i
-            class="fa-brands fa-linkedin hover:text-purple-300 transition-all"></i></a>
-        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a> -->
-      </li>
-      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-        <a href="https://github.com/SiddTheCoder"><i
-            class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a>
-        <!-- <a href="https://www.facebook.com/siddthecoder"><i class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a> -->
-      </li>
-    </ul>
-
-    <ul class="flex">
-      <div id="navWrapper" class="sm:hidden block text-purple-100 text-2xl cursor-pointer">
-        <i class="fa-duotone fa-solid fa-bars"></i>
-      </div>
-      <div class="hidden sm:block">
-        <div id="showUpcomingMessage"
-          class="bg-purple-500 rounded font-happyMonkey hover:transition-all cursor-pointer text-white border px-4 text-sm pb-1 py-[5px] hover:bg-purple-700">
-          Join
-        </div>
-        <!-- The Message To show -->
-        <div>
-          <div id="upcomingMessageInfo" class=" z-[1000] shadow-[-4px_4px_42px_2px_#a700bd] hidden opacity-0 fixed left-2 bottom-2 bg-purple-900 h-10 w-80 rounded justify-center items-center gap-2 transition-opacity duration-500 ease-in-out">
-              <div class="text-purple-500">
-                  <img class="w-8" src="asset/siddycoddy-no-bg.png" alt="">
-              </div>
-              <div class="text-purple-300">Available After Upcoming Update</div>
-          </div>
-      </div>
-        <!-- The Message To show -->
-         <script src="script/upcomingInformer.js"></script>
-        <!-- The Script to add -->
-      </div>
-    </ul>
-  </nav>
-
-  <!-- NavBar SideBar -->
-  <div id="wrap" class="bg-purple-700/30 backdrop-blur-md h-[100vh] w-80 fixed right-0 top-0 z-[100000] p-5 transition-all ease-in-out duration-300 rounded-r-md text-white flex flex-col translate-x-96">
-       <div class="flex justify-between items-center px-2 pr-3">
-     <div class="text-2xl text-purple-300">
-       <i class="fa-duotone fa-solid fa-eye fa-shake"></i>
-      </div>
-    <div id="wrapCloser" class="text-purple-300 text-3xl mb-2">
-      <i class="fa-regular fa-square-caret-left"></i>
-    </div>
-     </div>
-     <hr>
-    <div class="flex-col flex mb-4">
-      <li class="list-none text-lg sm:text-sm font-[450] font-exo sm:font-happyMonkey text-white cursor-pointer hover:text-slate-400 mb-3 mt-5">
-        <a class="py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100" href="#secction-project">Projects</a>
-      </li>
-      <li class="list-none text-lg sm:text-sm font-[450] font-exo sm:font-happyMonkey text-white cursor-pointer hover:text-slate-400 mb-3">
-        <a class="py-2  font-medium hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-white after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100" href="#Hero-One">Skills</a>
-      </li>
-      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-        <a href="https://www.facebook.com/siddthecoder">
-          <i class="fa-brands fa-facebook hover:text-purple-300 transition-all"></i></a>
-        </li>
-        <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-          <a href="https://www.instagram.com/siddhant_.ydv"><i
-            class="fa-brands fa-instagram hover:text-purple-300 transition-all"></i></a>
-      </li>
-      <li class="list-none text-xl font-[450] text-white cursor-pointer hover:text-slate-400">
-        <a href="https://github.com/SiddTheCoder"><i
-          class="fa-brands fa-github hover:text-purple-300 transition-all"></i></a>
-        </li>
-      </div>
-      <hr>
-      <div class="mt-5 mb-4">
-        <ul class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">FAQs</ul>
-        <ul class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Expertise</ul>
-        <ul class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Skills</ul>
-        <ul class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Service</ul>
-        <ul class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Blogs</ul>
-        <ul class="w-28 hover:translate-x-2 transition-transform ease-out duration-300 cursor-pointer text-purple-200 hover:text-purple-50 hover:tracking-widest">Contact Me</ul>
-      </div>
-      <hr>
-      <div>
-        <img src="asset/video/code-processing.gif" alt="">
-      </div>
-      <hr>
-
-    </div>
-      <!-- Script for navWrapper -->
-  <script>
-    document.querySelector('#navWrapper').addEventListener('click', ()=>{
-      document.getElementById('wrap').classList.remove('translate-x-96')
-      document.getElementById('wrap').classList.add('translate-x-0')
-    })
-    document.querySelector('#wrapCloser').addEventListener('click', ()=>{
-      document.getElementById('wrap').classList.add('translate-x-96')
-      document.getElementById('wrap').classList.remove('translate-x-0')
-    })
-  </script>
-    <!-- NavBar SideBar -->
-    <!-- Script for navbar for appearing in anti-scroll -->
-  <script>
-     let lastScroll = 0;
-     const navbar = document.getElementById("navbar");
-     
-     window.addEventListener("scroll", () => {
-       const currentScroll = window.pageYOffset;
-       
-       if (currentScroll <= 0) {
-         navbar.classList.remove("-translate-y-full");
-       }
-     
-       if (currentScroll > lastScroll) {
-         // Scrolling down, hide navbar
-         navbar.classList.add("-translate-y-full");
-       } else {
-         // Scrolling up, show navbar
-         navbar.classList.remove("-translate-y-full");
-       }
-       
-       lastScroll = currentScroll;
-     });
-  </script>
-  <!-- Nav Bar Ends -->
-
-
-
-  <!-- Lander Begins here -->
-  <main id="main" class="mt-12">
-    <div class="h-auto mb-10 bg-slate-950 text-white flex justify-center">
-      <div class="hidden md:block w-[15%] h-full">
-        <ul class="flex flex-col items-center">
-          <li
-            class="h-16 w-16 rounded rotate-12 bg-purple-700 mt-10 left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-10" src="asset/one.png" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-10" src="asset/kanyam1.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-1" src="asset/night2.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-5" src="asset/kanyam2.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-1" src="asset/isckon.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-0" src="asset/night1.jpg" alt="" />
-          </li>
-        </ul>
-      </div>
-      <div
-        class="w-full sm:w-[80%] h-full p-4 flex flex-col sm:flex-row items-start sm:justify-items-center sm:justify-around py-4 sm:py-10">
-        <div class="sm:pl-9 sm:w-[80%] sm:min-w-[50%] w-full h-full sm:mt-12">
-          <div class="h-8 relative mb-4">
-            Empowering the Future with
-           <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Code & Creativity</span> <br>
-            
-            in this Era
-          </div>
-          <div class="font-['Rubik Bubbles'] text-4xl sm:text-5xl text-purple-400">
-            S I D D T H E C O D E R <span class="hidden">SIDDYCODDY</span>
-          </div>
-           <!-- Quote Line -->
-          <div class="mt-4 h-8 relative text-base sm:text-lg italic">
-            <span class="text-purple-200 font-semibold">"I don't just write code,</span>
-            <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded mr-1">I craft experiences."</span>
-          </div>
-
-          <div class="mt sm:mt-16 w-full">
-            <div class="define-ownself text-lg font-exo sm:font-happyMonkey">
-              <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded">Wondering</span>
-              Who am <span class="text-4xl">I</span> ? <br />Here You Got
-              <br />
-              Bloody
-              <span class="typed-text font-silkscreen text-purple-400 text-3xl"></span><span
-                class="cursor">&nbsp;</span>
-            </div>
-            <script src="script/autoText.js"></script>
-          </div>
-
-          <div class="grid place-items-center">
-            <img
-              class="sm:hidden block transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0 w-48"
-              src="asset/mmbg (1).png" alt="Hero" />
-          </div>
-
-          <div class="mt-16">
-            <ul class="flex gap-y-20 sm:flex-row justify-start gap-10">
-              <div>
-                <a href='https://bolum.netlify.app'
-                class="lander border w-56 rounded flex justify-center items-center p-2 bg-purple-700 cursor-pointer border-purple-950 hover:bg-purple-950 gap-2 hover:gap-3 transition-all duration-150 ease-linear">
-                <span>Latest Project</span><span><i class="fa-solid fa-arrow-right"></i></span>
-              </a>
-              </div>
-              <li
-                class="lander-btn border w-56 rounded flex justify-center items-center p-2 bg-purple-700 cursor-pointer border-purple-950 hover:bg-purple-950 transition-all">
-                Switch to SPA Portfolio
-              </li>
-            </ul>
-          </div>
-        </div>
-<script>
-  document.querySelectorAll('.lander-btn').forEach( (btn)=>{
-    btn.addEventListener('click', (e) => {
-      const prevValue = e.target.textContent
-      e.target.textContent = 'Update Coming'
-      setTimeout(function(){
-        e.target.textContent = `${prevValue}`
-      },3000)
-    })
-  })
 </script>
-        <div class="h-full grid place-items-center">
-          <img
-            class="hidden sm:block w-[100%] relative bottom-16 transition-all duration-300 cursor-pointer filter grayscale hover:grayscale-0"
-            src="asset/mmbg (1).png" alt="Hero" />
-        </div>
-      </div>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-arrow" viewBox="0 0 34 26"><path d="M3 3c8 1 19 6 26 19m0 0-8-2m8 2 1-9"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></symbol>
+  <symbol id="i-gh" viewBox="0 0 24 24"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></symbol>
+  <symbol id="i-in" viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></symbol>
+</svg>
+<a class="skip" href="#main">Skip to content</a>
+<div id="top-sentinel" style="position:absolute;top:0;height:1px;width:1px"></div>
 
-      
-      <div class="hidden md:block w-[15%] h-full">
-        <ul class="flex flex-col items-center">
-          <li
-            class="h-16 w-16 rounded rotate-12 bg-purple-700 mt-10 left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-0" src="asset/sidelook.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-2" src="asset/farewll.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-0" src="asset/funky.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative left-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-0" src="asset/ylSwag.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative right-10 overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-0" src="asset/coat.jpg" alt="" />
-          </li>
-          <li
-            class="h-16 w-16 rounded -rotate-12 bg-purple-700 mt-10 relative overflow-hidden shadow-purple-400 shadow-2xl hover:-rotate-6 transition-all hover:scale-105">
-            <img class="w-22 relative bottom-0" src="asset/baby.jpg" alt="" />
-          </li>
-        </ul>
-      </div>
+<header class="nav">
+  <div class="wrap">
+    <a class="name" href="#start">Siddhant Yadav</a>
+    <div class="icons">
+      <span class="hand sound-note">sound on. trust me<svg><use href="#i-arrow"/></svg></span>
+      <button class="icon" id="sound" type="button" aria-pressed="false" aria-label="Sound">
+        <svg viewBox="0 0 24 24"><path d="M3 9.5h3L10 6v12l-4-3.5H3z"/><g class="eq"><rect x="13" y="9" width="2" height="6" rx="1"/><rect x="17" y="7" width="2" height="10" rx="1"/><rect x="21" y="10" width="2" height="4" rx="1"/></g></svg>
+      </button>
+      <a class="icon" href="https://www.instagram.com/siddthecoder/" rel="me noopener" target="_blank" aria-label="Instagram"><svg><use href="#i-ig"/></svg></a>
+      <a class="icon" href="https://github.com/SiddTheCoder" rel="me noopener" target="_blank" aria-label="GitHub"><svg><use href="#i-gh"/></svg></a>
+      <a class="icon" href="https://www.linkedin.com/in/siddthecoder" rel="me noopener" target="_blank" aria-label="LinkedIn"><svg><use href="#i-in"/></svg></a>
     </div>
-  </main>
-  <!-- Lander Terminate here -->
+  </div>
+</header>
 
-
-  
-  <!-- Project Section Starts -->
-  <section id="secction-project" class="h-auto w-full text-white flex flex-col items-center p-5">
-
-    <div>
-      <!-- 1st row -->
-      <p class="text-xl">
-        Recents
-        <span class="bg-purple-800 text-white rounded px-3 text-2xl pb-1 font-silkscreen">Project</span>
-        Showcase
-      </p>
-      <div class="w-auto mt-2 border-b-purple-600 border-b-4 shadow-purple-400 shadow-xl"></div>
+<main id="main">
+  <section class="hero wrap" id="start">
+    <div class="duel">
+      <span class="hand alias">a.k.a. SiddTheCoder<svg><use href="#i-arrow"/></svg></span>
+      <figure class="band portrait in" style="--i:1">
+        <img src="/img/hero-coder-900.webp" srcset="/img/hero-coder-560.webp 560w, /img/hero-coder-900.webp 900w" sizes="(min-width: 1000px) 400px, 46vw" width="900" height="900" fetchpriority="high" alt="Siddhant Yadav in profile wearing sunglasses, black and white">
+        <figcaption class="hand">the coder</figcaption>
+      </figure>
+      <figure class="band portrait in" style="--i:2">
+        <img src="/img/hero-founder-900.webp" srcset="/img/hero-founder-560.webp 560w, /img/hero-founder-900.webp 900w" sizes="(min-width: 1000px) 400px, 46vw" width="900" height="900" fetchpriority="high" alt="Siddhant Yadav facing the camera in sunglasses, black and white">
+        <figcaption class="hand">the founder</figcaption>
+      </figure>
+      <h1 class="big who in" style="--i:0">Siddhant Yadav</h1>
     </div>
-
-    <div id="project-container" class="w-full p-4 flex flex-wrap px-1 mt-4 sm:pl-10 justify-center md:justify-center gap-10 sm:gap-22">
-
-      
-      
-
-      <!-- Card Starts Here -->
-      <!-- <div id="card"
-            class="card relative w-80 h-[70vh] backdrop-blur-sm bg-slate-600/30 rounded-lg flex flex-col overflow-hidden shadow-lg items-center justify-center cursor-no-drop">
-            <div id="gloss" class="gloss rounded-full"></div>
-            <h1>Coming Soon</h1>
-          </div> -->
-      <script type="module" src="script/cardTilter.js"></script>
-      <!-- Card Ends Here -->
-
-    </div>
-    
+    <p class="big bottom in" style="--i:3">CTO of Softmato</p>
+    <div class="btns in" style="--i:4"><a class="btn" href="#contact">Work with me</a></div>
   </section>
-  <script src="projectSchema.js"></script>
-  <!-- Project Section Ends -->
 
-
-
-   <!-- Hero 1 Starts -->
-     <!-- Hero 1 Starts -->
-   <section id="Hero-One" class="parent h-auto w-full bg-slate-200">
-  <div class="bg-gradient-to-r from-violet-500 to-purple-500 h-[100px] flex flex-col px-7 pb-4 ">
-    
-    <div class="text-purple-300 text-2xl font-exo sm:font-silkscreen text-center mt-3 mb-2">
-      Since <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded text-3xl">Accquired</span> Skills
-    </div>
-    <hr>
-
-    <!-- Centering the Skills -->
-<div class="w-[60%] mx-auto h-full flex justify-center items-center flex-wrap gap-8 mt-4">
-
-  <!-- HTML Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- CSS Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- JavaScript Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- React Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- Node.js Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- MongoDB Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- Python Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- C Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- C++ Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- Git Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- GitHub Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="h-12 w-12">
-    </div>
-  </div>
-  
-
-  <!-- Postman Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- Express Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" class="h-12 w-12">
-    </div>
-  </div>
-
-  <!-- Redux Toolkit Skill -->
-  <div class="skill-logo-container">
-    <div class="skill-logo w-16 h-16 bg-white rounded-full flex items-center justify-center transition transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r from-purple-500 to-purple-300">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" alt="Redux Toolkit" class="h-12 w-12">
-    </div>
-  </div>
-
-</div>
-
-  </div>
-
-  <!-- Blurred overlay (invisible by default) -->
-  <div class="blur-overlay hidden fixed inset-0 bg-white/50 backdrop-blur-sm"></div>
-
-  <!-- Certificate Showcase -->
-  <div id="certificate-showcase" class="certificate-showcase hidden rounded h-[100vh] w-full sm:h-[80vh] sm:w-[700px] bg-purple-400 absolute sm:fixed top-0 right-0 -translate-x-7">
-    <div class="h-screen bg-gradient-to-r from-violet-500 to-fuchsia-500 w-full flex flex-col">
-      <!-- Certificate Closer -->
-      <div class="w-full flex justify-end">
-        <div class="certificate-showcase-closer w-auto text-center p-4 mr-5 cursor-pointer text-xl text-white" title="close">✖</div>
-      </div>
-      <!-- Minor Slogan -->
-      <div class="w-full text-center text-purple-300">" Code Gives Another Perspective to Life "</div>
-
-      <!-- Certificate Holder Img -->
-      <div class="w-full flex justify-center mt-4">
-        <div class="h-32 w-32 bg-yellow-50 rounded-full overflow-hidden">
-          <img class="scale-[2] -translate-x-4 translate-y-5" src="asset/selfe1.jpg" alt="Profile Image" title="Profile Image">
-        </div>
-      </div>
-
-      <!-- Certificate Holder Name -->
-      <div class="w-full text-center text-purple-200 text-2xl sm:font-silkscreen font-exo">Siddhant Yadav</div>
-
-      <!-- Certificate Body Message -->
-      <div class="w-full text-center text-white text-sm px-5 font-exo">
-        <p>This is certificate of completed this Language Class from <span class="tracking-widest">SIDDYCODDY</span> Academy</p>
-        <br>
-        <p>SIDDYCODDY is one of the greatest platform from where billion of students get their desired skill built in their chromosome with the advanced technology of PARTH <span class="text-[10px]">V.2.3.99.0</span></p>
-      </div>
-
-      <!-- Signature & Logo Section -->
-      <div class="flex gap-10 justify-between px-10 mt-20 sm:mt-44">
-        <div>
-          <img class="w-32 sm:w-44" src="asset/siddycoddy-transparent.png" alt>
-        </div>
-        <div class="-rotate-6">
-          <img class="w-52 sm:w-80" src="asset/siddy-signature.png" alt>
-        </div>
+  <section class="statement" aria-label="In numbers">
+    <div class="pin">
+      <div class="sec-head">
+        <h2 class="big"><span data-count="60">60</span>+ repos.<br><span data-count="2">2</span> products live.<br><span data-count="1">1</span> company.</h2>
+        <span class="hand">and counting</span>
       </div>
     </div>
+  </section>
+
+  <section class="sec wrap" id="softmato">
+    <div class="sec-head rv">
+      <h2 class="big">I co-founded<br>Softmato.</h2>
+      <span class="hand" style="right:4%;top:-1.5em;--r:7deg">founder, director &amp; CTO. all three.</span>
+    </div>
+    <p class="intro rv">Softmato Technology Pvt Ltd is a software company in Kathmandu that builds its own products and takes on project work. I co-founded it with Jiwan Mijhar (Chairperson &amp; CEO), sit on the board and run engineering: the architecture, the shared payment and accounting platform, and the standards every project ships against.</p>
+    <div class="cards">
+      <a class="card rv" href="https://hostelpalika.com" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/hostelpalika.webp" width="960" height="600" loading="lazy" decoding="async" alt="HostelPalika homepage: find a hostel you can actually trust"></div>
+        <p class="cap"><i>H</i><b>HostelPalika</b><span>hostel software for Nepal, web + Android</span></p>
+      </a>
+      <a class="card rv" href="https://questioncall.com" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/questioncall.webp" width="960" height="600" loading="lazy" decoding="async" alt="QuestionCall homepage: ask your question, get a teacher working on it fast"></div>
+        <p class="cap"><i>Q</i><b>QuestionCall</b><span>live answers from real teachers</span></p>
+      </a>
+      <a class="card rv" href="https://softmato.com/products/spark" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/spark.webp" width="960" height="600" loading="lazy" decoding="async" alt="Spark product page: an AI personal assistant, in development"></div>
+        <p class="cap"><i>S</i><b>Spark</b><span>AI personal assistant, in development</span></p>
+      </a>
+    </div>
+    <div class="btns"><a class="btn" href="https://softmato.com" rel="noopener" target="_blank">Visit Softmato</a></div>
+  </section>
+
+  <section class="sec wrap" id="work">
+    <div class="sec-head rv">
+      <h2 class="big">Things I<br>shipped.</h2>
+      <span class="hand" style="left:6%;top:-1.2em">live links. no mockups.</span>
+    </div>
+    <p class="intro rv">College work, a hackathon win and the side projects I learned on. Click any card to open the real thing.</p>
+    <div class="cards">
+      <a class="card rv" href="https://elms-lac.vercel.app" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/elms.webp" width="960" height="600" loading="lazy" decoding="async" alt="ELMS learning portal for Danfe College"></div>
+        <p class="cap"><i>E</i><b>ELMS</b><span>for Danfe College</span></p>
+      </a>
+      <a class="card rv" href="https://moodemate.netlify.app" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/moodmate.webp" width="960" height="600" loading="lazy" decoding="async" alt="MoodMate, an AI emotional wellness assistant"></div>
+        <p class="cap"><i>M</i><b>MoodMate</b><span>hackathon MVP winner</span></p>
+      </a>
+      <a class="card rv" href="https://bolum.netlify.app" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/bolum.webp" width="960" height="600" loading="lazy" decoding="async" alt="Bolum real-time chat app landing page"></div>
+        <p class="cap"><i>B</i><b>Bolum</b><span>real-time chat with an AI mentor</span></p>
+      </a>
+      <a class="card rv" href="https://anbari.netlify.app" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/anbari.webp" width="960" height="600" loading="lazy" decoding="async" alt="Anbari multi-store e-commerce platform"></div>
+        <p class="cap"><i>A</i><b>Anbari</b><span>multi-store e-commerce</span></p>
+      </a>
+      <a class="card rv" href="https://softmato.com" rel="noopener" target="_blank">
+        <div class="shot"><img src="/img/work/softmato.webp" width="960" height="600" loading="lazy" decoding="async" alt="Softmato company website"></div>
+        <p class="cap"><i>S</i><b>softmato.com</b><span>for Softmato</span></p>
+      </a>
+      <a class="card more rv" href="https://github.com/SiddTheCoder" rel="me noopener" target="_blank">
+        <div class="shot"><p class="big">+55 more<br>on GitHub</p></div>
+        <p class="cap"><i>G</i><b>SiddTheCoder</b><span>on GitHub</span></p>
+      </a>
+    </div>
+    <p class="intro rv">Also built: a desktop <a href="https://github.com/SiddTheCoder/ai_assistant.electron" rel="noopener" target="_blank">AI voice assistant</a> (Electron + FastAPI), <a href="https://github.com/SiddTheCoder/bharosa" rel="noopener" target="_blank">Bharosa</a> at JunctionX Kathmandu, <a href="https://github.com/SiddTheCoder/gen.llm" rel="noopener" target="_blank">local LLM experiments</a> and <a href="https://siddthecoder.github.io/NOTY/" rel="noopener" target="_blank">NOTY</a>.</p>
+  </section>
+
+  <section class="sec wrap" id="stack">
+    <div class="sec-head rv"><h2 class="big">My<br>inventory.</h2></div>
+    <p class="intro rv">What I reach for, from the first commit to production.</p>
+    <ul class="logos rv">
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/react.svg" width="40" height="40" loading="lazy" alt="React"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/nextdotjs.svg" width="40" height="40" loading="lazy" alt="Next.js"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/typescript.svg" width="40" height="40" loading="lazy" alt="TypeScript"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/javascript.svg" width="40" height="40" loading="lazy" alt="JavaScript"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/nodedotjs.svg" width="40" height="40" loading="lazy" alt="Node.js"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/express.svg" width="40" height="40" loading="lazy" alt="Express"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/mongodb.svg" width="40" height="40" loading="lazy" alt="MongoDB"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/socketdotio.svg" width="40" height="40" loading="lazy" alt="Socket.IO"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/python.svg" width="40" height="40" loading="lazy" alt="Python"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/fastapi.svg" width="40" height="40" loading="lazy" alt="FastAPI"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/electron.svg" width="40" height="40" loading="lazy" alt="Electron"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/redux.svg" width="40" height="40" loading="lazy" alt="Redux"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/tailwindcss.svg" width="40" height="40" loading="lazy" alt="Tailwind CSS"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/docker.svg" width="40" height="40" loading="lazy" alt="Docker"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/git.svg" width="40" height="40" loading="lazy" alt="Git"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/postman.svg" width="40" height="40" loading="lazy" alt="Postman"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/vercel.svg" width="40" height="40" loading="lazy" alt="Vercel"></li>
+      <li><img src="https://cdn.jsdelivr.net/npm/simple-icons@13.21.0/icons/netlify.svg" width="40" height="40" loading="lazy" alt="Netlify"></li>
+    </ul>
+
+    <ul class="rows">
+      <li class="rv"><h3>Full-stack web apps</h3><p>When the spreadsheet starts acting like the product.</p></li>
+      <li class="rv"><h3>Mobile apps</h3><p>React Native, one codebase for iOS and Android.</p></li>
+      <li class="rv"><h3>AI assistants &amp; LLMs</h3><p>When a chatbot tab isn't enough anymore.</p></li>
+      <li class="rv"><h3>Payments &amp; accounting</h3><p>When eSewa, Khalti and the ledger have to agree.</p></li>
+      <li class="rv"><h3>System architecture</h3><p>When the MVP has to survive real users.</p></li>
+      <li class="rv"><h3>Desktop apps</h3><p>Electron, when the browser is the wrong place for it.</p></li>
+    </ul>
+  </section>
+
+  <section class="sec wrap" id="about">
+    <div class="sec-head rv">
+      <h2 class="big">The guy behind<br>the commits.</h2>
+      <span class="hand" style="right:2%;top:-1.3em;--r:9deg">hi, it's me</span>
+    </div>
+    <div class="about rv">
+      <p>I'm <strong>Siddhant Yadav</strong>, a software engineer from Kathmandu, Nepal. Online I go by <strong>SiddTheCoder</strong>, or just Sidd.</p>
+      <p>I'm a founder, a member of the board of directors and the CTO of <strong>Softmato Technology Pvt Ltd</strong>. I work across the whole stack: React, Next.js, Node.js and MongoDB on the web, React Native on mobile, Electron on desktop, and Python with FastAPI for AI, from LLM integrations to voice assistants. I still write code most days and review the rest.</p>
+      <p>I care about three things: software that is correct before it is clever, tools the next engineer can read, and products built for how Nepal actually works, with Bikram Sambat dates and eSewa or Khalti payments from day one.</p>
+    </div>
+    <p class="pitch rv">If you need a website that just exists, there are cheaper people. If you need software that has to work on Monday morning with real money moving through it, write me.</p>
+    <ol class="saves">
+      <li class="rv"><b>2026</b><span>Founder, Director and CTO of Softmato. Shipped HostelPalika and QuestionCall, started Spark, built ELMS for Danfe College and Bharosa at JunctionX Kathmandu.</span></li>
+      <li class="rv"><b>2025</b><span>Went full-stack MERN with Bolum and Anbari. MoodMate won the MVP title at a hackathon. Started a desktop AI voice assistant.</span></li>
+      <li class="rv"><b>2024</b><span>Opened GitHub and shipped my first websites under the name SiddyCoddy, plus a pile of small JavaScript tools.</span></li>
+    </ol>
+  </section>
+
+  <section class="sec wrap" id="offline">
+    <div class="sec-head rv"><h2 class="big">What I do when<br>I'm not coding.</h2></div>
+    <div class="pile" aria-label="Photos of Siddhant Yadav">
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/wall.webp" width="390" height="520" loading="lazy" alt="Siddhant sitting against a red brick wall with a helmet"><figcaption>brick walls &amp; helmets</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/night.webp" width="520" height="520" loading="lazy" alt="Siddhant at night in a leather jacket"><figcaption>night shift</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/sidelook.webp" width="520" height="520" loading="lazy" alt="Black and white side profile of Siddhant"><figcaption>deep in a bug</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/suit.webp" width="520" height="520" loading="lazy" alt="Siddhant in a suit, black and white"><figcaption>suit.exe</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/bike.webp" width="390" height="520" loading="lazy" alt="Siddhant with a bicycle in front of a white temple"><figcaption>two wheels, one temple</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/kanyam.webp" width="234" height="520" loading="lazy" alt="Siddhant with arms wide on a hilltop"><figcaption>Kanyam, arms wide</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/rain.webp" width="390" height="520" loading="lazy" alt="Siddhant walking on a wet road"><figcaption>monsoon walk</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/hills.webp" width="520" height="520" loading="lazy" alt="Siddhant standing in the hills"><figcaption>hills &gt; meetings</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/tie.webp" width="298" height="520" loading="lazy" alt="Siddhant in a shirt and tie by a window"><figcaption>tie on, earbuds in</figcaption></figure>
+      <figure class="polaroid" tabindex="0"><img src="/img/pile/shades.webp" width="520" height="520" loading="lazy" alt="Siddhant in sunglasses"><figcaption>sunglasses indoors</figcaption></figure>
+    </div>
+    <p class="pile-tip muted">Move things around. Double-click for a closer look.</p>
+    <div class="btns" style="margin-top:16px"><button class="btn" id="tidy" type="button">Tidy up</button><button class="btn" id="shuffle" type="button">Shuffle</button></div>
+  </section>
+
+  <section class="sec wrap final" id="contact">
+    <div class="sec-head rv">
+      <h2 class="big">Your<br>move.</h2>
+      <span class="hand">I do reply</span>
+    </div>
+    <p class="intro rv">Email is best. For project work with the company, go through Softmato.</p>
+    <div class="btns rv"><a class="btn" href="mailto:siddthecoder@gmail.com">siddthecoder@gmail.com</a><a class="btn" href="https://softmato.com/contact" rel="noopener" target="_blank">Softmato contact</a></div>
+    <div class="socials rv">
+      <a href="https://www.linkedin.com/in/siddthecoder" rel="me noopener" target="_blank">LinkedIn</a>
+      <a href="https://github.com/SiddTheCoder" rel="me noopener" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/siddthecoder/" rel="me noopener" target="_blank">Instagram @siddthecoder</a>
+      <a href="https://www.instagram.com/siddhant_.ydv/" rel="me noopener" target="_blank">Instagram @siddhant_.ydv</a>
+      <a href="https://www.facebook.com/siddthecoder" rel="me noopener" target="_blank">Facebook</a>
+      <a href="https://x.com/SiddTheCoder" rel="me noopener" target="_blank">X</a>
+    </div>
+
+    <div class="faq">
+      <h2 class="big rv" style="font-size:clamp(2.2rem,4.6vw,3.6rem);margin-bottom:28px">Questions people ask.</h2>
+      <details><summary>Who is Siddhant Yadav?</summary><p>Siddhant Yadav is a software engineer and entrepreneur from Kathmandu, Nepal. He is a founder, a board director and the CTO of Softmato Technology Pvt Ltd, where he leads engineering for HostelPalika, QuestionCall and Spark. Online he goes by SiddTheCoder.</p></details>
+      <details><summary>Is SiddTheCoder the same person as Siddhant Yadav?</summary><p>Yes. SiddTheCoder, or Sidd for short, is the handle Siddhant Yadav uses on GitHub, LinkedIn, Instagram, Facebook and X. His earliest projects were published under the name SiddyCoddy.</p></details>
+      <details><summary>What is Softmato?</summary><p>Softmato Technology Pvt Ltd is a registered software company in Kathmandu, Nepal. It builds its own products, HostelPalika, QuestionCall and Spark, and takes on project work: web apps, mobile apps, payment integration with eSewa, Khalti and Fonepay, UI/UX design and SEO.</p></details>
+      <details><summary>What does Siddhant Yadav do at Softmato?</summary><p>As CTO he owns how the software gets built: the system architecture, the payment and accounting platform the products share, and the engineering standards. He writes code most days and reviews the rest.</p></details>
+      <details><summary>What technologies does Siddhant Yadav work with?</summary><p>TypeScript and JavaScript across React, Next.js, Node.js, Express and MongoDB; React Native for mobile; Electron for desktop; and Python with FastAPI for AI services built on large language models and voice.</p></details>
+      <details><summary>How can I contact Siddhant Yadav?</summary><p>Email siddthecoder@gmail.com or message SiddTheCoder on LinkedIn. For company projects, contact Softmato through softmato.com.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <p>© 2026 Siddhant Yadav (SiddTheCoder). Software engineer and Founder, Director &amp; CTO of Softmato Technology Pvt Ltd, Kathmandu, Nepal.</p>
+    <a href="#start">Back to top ↑</a>
   </div>
-</div>
-
-<!-- Script to tilt the card -->
-<script type="module" src="script/cardTilter.js"></script>
-
-<!-- Script for Certificate Showcase -->
-<script>
-  document.addEventListener('DOMContentLoaded', () => {
-    const certificateShowcase = document.querySelector('.certificate-showcase');
-    const blurOverlay = document.querySelector('.blur-overlay');
-
-    document.querySelectorAll('.certificate-btn').forEach((certificate) => {
-      certificate.addEventListener('click', () => {
-        blurOverlay.classList.remove('hidden');
-        certificateShowcase.classList.remove('hidden');
-        certificateShowcase.classList.add('block');
-      });
-    });
-
-    document.querySelector('.certificate-showcase-closer').addEventListener('click', () => {
-      blurOverlay.classList.add('hidden');
-      certificateShowcase.classList.add('hidden');
-      certificateShowcase.classList.remove('block');
-    });
-  });
-</script>
-
-<!-- Script for Skill Showcase Switcher -->
-<script>
-  document.querySelectorAll('.skill-switcher-initial').forEach((switcher) => {
-    switcher.addEventListener('click', () => {
-      const container = switcher.closest('.flex.flex-col');
-      container.querySelector('.initial').classList.toggle('hidden');
-      container.querySelector('.final').classList.toggle('hidden');
-    });
-  });
-</script>
-   
-  <!-- Hero 1 Ends -->
-
-
-
-  <!-- Footer Starts Here -->
-   <footer class="bg-purple-700 h-auto w-full flex flex-col p-1">
-     <div class="h-[85vh] w-full sm:mt-12 mt-8">
-      <div class="text-white w-full text-left sm:text-center text-2xl pl-2">
-        <p>The <span class="bg-purple-300 text-purple-950 px-1 py-0.5 rounded text-3xl font-silkscreen">In Demand</span> Developer</p>
-      </div>  
-     <div class="w-full h-[80vh] flex flex-col sm:flex-row px-5 sm:justify-center items-center">
-            <!-- CSS GRID IMAGE GALLARY -->
-            <div class="w-full mt-3 sm:pl-32">
-              <p class="text-purple-300 bg-purple-950 text-xl border border-purple-600 cursor-pointer hover:border-purple-800 transition-all ease-out duration-150 mb-4 w-40 p-3 text-center hover:bg-purple-700 hover:text-white">Gallery</p>
-               <div class="w-full grid grid-cols-5 sm:grid-cols-5 gap-4">
-                   <div class="grid gap-4">
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/nightffade.jpg" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/jnk-fade.jpg" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/selfe2.jpg" alt="">
-                       </div>
-                   </div>
-                   <div class="grid gap-4">
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/coat.jpg" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/nightsode2.jpg" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/jnk-pic.jpg" alt="">
-                       </div>
-                   </div>
-                   <div class="grid gap-4">
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/kanyam1.jpg" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/isckon.jpg" alt="">
-                       </div>
-                       
-                   </div>
-                   <div class="grid gap-4">
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/sidelook.jpg" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200 scale-105" src="asset/one.png" alt="">
-                       </div>
-                       <div>
-                           <img class="h-auto max-w-full rounded-lg hover:scale-110 hover:border border-purple-400 transition-transform ease-in-out duration-200" src="asset/funky.jpg" alt="">
-                       </div>
-                   </div>
-               </div>
-              </div>    
-            <!-- CSS GRID IMAGE GALLARY -->
-          
-             <!-- LInks -->
-            <div class="w-full mt-2 flex sm:items-center flex-col justify-center gap-5">
-              <div class="w-[30vw] rounded-3xl overflow-hidden">
-                <video muted autoplay loop  src="asset/video/SiddYCoddy-Academy Intro.mp4" class="hidden sm:block"></video>
-              </div>
-              <div class="flex gap-10 mb-5">
-                <ul class="text-white">
-                  <p class="cursor-pointer py-2 w-52 font-bold hover:text-purple-200 transition duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-0.5 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-black after:transition-transform after:duration-300 hover:after:origin-bottom-left hover:after:scale-x-100">Chromosome Showcase</p>
-                 <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">FAQs</li>
-                 <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Gmail</li>
-                 <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Contact</li>
-                 <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Blogs</li>
-                 <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Recents Project</li>
-                 <li class="pl-2 cursor-pointer hover:text-purple-100 text-purple-300">Upcoming Chromosome</li>
-                </ul>
-                <div class="hidden sm:block">
-                 <img class="rounded-md" loading="lazy" src="asset/video/coding.gif" alt="">
-                </div>
-                <div class="flex justify-end items-end mb-5">
-                  <a href="#main" class="bg-purple-800 hover:bg-purple-700 transition-all ease-out duration-200 p-5 rounded-full border border-x-white" title="TOP">
-                    <i class="fa-duotone fa-solid fa-up-long text-white text-2xl"></i>
-               </a>
-                </div>
-              </div>
-            </div>
-             <!-- LInks -->
-     </div>
-     </div>
-     <!-- Copright section -->
-      <div class="mt-5 sm:hidden"></div>
-      <hr>
-     <div class="mt-1 mb-4 h-auto w-full flex flex-col justify-center sm:flex-row text-white items-center sm:justify-center sm:gap-11">
-        <p class="text-sm font-happyMonkey">
-            &copy; <span id="currentYear"></span> Siddhant Yadav. All rights reserved.
-        </p>
-        <p class="text-sm">Made with ❤️</p>
-        <p class="text-sm">
-            Developed by <a href="https://www.siddhantyadav.com.np" class="text-orange-100 hover:underline text-lg font-silkscreen">SiddTheCoder</a>
-        </p>
-    <script>
-      document.getElementById("currentYear").textContent = new Date().getFullYear();
-  </script>
-     </div>
-     <!-- Copright section -->
-
-  </footer>
-  <!-- Footer Ends Here -->
-
+</footer>
+<script src="/app.js" defer></script>
+<script src="/cursor.js" defer></script>
+<script type="module" src="/hero.js"></script>
 </body>
-
 </html>

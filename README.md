@@ -1,78 +1,28 @@
-# 🚀 SiddTheCoder Portfolio
+# siddhantyadav.com.np
 
-![Portfolio Banner](asset/siddycoddy-no-bg.png)
+Portfolio of **Siddhant Yadav (SiddTheCoder)**, Founder, Director and CTO of [Softmato Technology](https://softmato.com), Kathmandu, Nepal.
 
-A modern, interactive portfolio website showcasing my journey as a developer, projects, and technical expertise ..
+Live: https://www.siddhantyadav.com.np
 
-## ✨ Features
+## What's here
 
-- 🎯 Interactive UI with smooth animations
-- 💻 Responsive design for all devices
-- 🌟 Dynamic skill showcase with experience levels
-- 🎨 Project gallery with hover effects
-- 📜 Certificate showcase system
-- 🔄 Auto-typing text animations
-- 📱 Mobile-friendly navigation
+Plain static site for GitHub Pages. No build step.
 
-## 🛠️ Technologies Used
+| File | Purpose |
+| --- | --- |
+| `index.html` | The whole page, plus SEO meta and JSON-LD (Person, WebSite, Organization, ProfilePage, FAQPage) |
+| `style.css` | All styles |
+| `app.js` | Sound toggle, count-up numbers, draggable photo pile |
+| `hero.js` | Three.js shader on the hero photo (grain + mouse ripple). Loads lazily; the `<img>` is the fallback |
+| `fonts/` | Self-hosted Barlow Condensed, Open Sauce One, Shadows Into Light |
+| `img/` | Photos, hero band, project screenshots (`work/`), photo pile (`pile/`) |
+| `sfx/` | Sound effects generated with ElevenLabs |
+| `llms.txt` | Plain-text facts for AI answer engines |
 
-- ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-- ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-- ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-- ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-## 🌐 Live Demo
-
-Visit the live website: [siddhantyadav.com.np](https://www.siddhantyadav.com.np)
-
-
-
-## 🚀 Key Features Explained
-
-### Dynamic Skill Cards
-- Interactive skill cards with flip animation
-- Experience level visualization
-- Certificate showcase system
-
-### Project Showcase
-- Hover effects with gloss animation
-- Project details on hover
-- Direct links to live projects
-
-### Responsive Navigation
-- Mobile-friendly hamburger menu
-- Smooth scroll to sections
-- Dynamic navbar hide/show on scroll
-
-## 💻 Local Development
-
-1. Clone the repository:
+## Run locally
 
 ```bash
-git clone https://github.com/siddhantyadav/siddhantyadav.github.io.git
+python -m http.server 8093
 ```
 
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-Siddhant Yadav - [@siddhant_.ydv](https://www.instagram.com/siddhant_.ydv/)
-
-Project Link: [https://github.com/SiddTheCoder/portfolio](https://github.com/SiddTheCoder/portfolio)
-
----
-
-<p align="center">Made with ❤️ by <a href="https://www.siddhantyadav.com.np">SiddTheCoder</a></p>
+Then open http://localhost:8093.

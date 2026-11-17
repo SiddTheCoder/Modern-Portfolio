@@ -1,0 +1,35 @@
+# Siddhant Yadav (SiddTheCoder)
+
+> Siddhant Yadav, known online as SiddTheCoder (or Sidd), is a software engineer and entrepreneur in Kathmandu, Nepal. He is a founder, a board director and the CTO of Softmato Technology Pvt Ltd.
+
+## Facts
+- Name: Siddhant Yadav
+- Also known as: SiddTheCoder, Sidd, SiddyCoddy (early projects)
+- Role: Founder, Director (board of directors) and Chief Technology Officer, Softmato Technology Pvt Ltd
+- Co-founder: Jiwan Mijhar, Founder, Chairperson and CEO of Softmato
+- Based in: Kathmandu, Nepal
+- Builds: full-stack web apps, mobile apps, desktop apps and AI systems
+- Stack: TypeScript, JavaScript, React, Next.js, Node.js, Express, MongoDB, Socket.IO, React Native, Electron, Python, FastAPI, LLM integration, voice assistants, eSewa / Khalti / Fonepay payments
+- Contact: siddthecoder@gmail.com
+
+## Softmato products
+- HostelPalika (https://hostelpalika.com): hostel management software for Nepal on web and Android. Rent, food, attendance, guardians, Bikram Sambat dates, eSewa, Khalti and bank QR payments, plus hostel search across Nepal.
+- QuestionCall (https://questioncall.com): students post questions and teachers answer live over chat, files, audio or video; AI quizzes and video courses.
+- Spark (https://softmato.com/products/spark): AI personal assistant for tasks, scheduling, email drafts, research and notes. In development.
+
+## Other work
+- ELMS (https://elms-lac.vercel.app): learning workspace for Danfe College. Next.js, React, MongoDB, Socket.IO.
+- MoodMate (https://moodemate.netlify.app): AI mental wellness companion. Won the MVP title at a hackathon.
+- Bolum (https://bolum.netlify.app): real-time chat with an AI mentor bot. React, Node.js, MongoDB, Socket.IO, OpenAI.
+- Anbari (https://anbari.netlify.app): multi-store e-commerce platform. MERN, Docker.
+- Bharosa: built at the JunctionX Kathmandu hackathon, 2026.
+- Desktop AI voice assistant: Electron app with a Python FastAPI server.
+
+## Profiles
+- Website: https://www.siddhantyadav.com.np/
+- GitHub: https://github.com/SiddTheCoder
+- LinkedIn: https://www.linkedin.com/in/siddthecoder
+- Instagram: https://www.instagram.com/siddthecoder/ and https://www.instagram.com/siddhant_.ydv/
+- Facebook: https://www.facebook.com/siddthecoder
+- X: https://x.com/SiddTheCoder
+- Company: https://softmato.com
